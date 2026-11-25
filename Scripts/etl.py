@@ -6,6 +6,7 @@ from bson.decimal128 import Decimal128
 from decimal import Decimal
 
 from psycopg.rows import dict_row
+from pymongo import MongoClient, UpdateOne
 
 import psycopg
 from pymongo import MongoClient
@@ -204,6 +205,68 @@ def transformar_retiros(retiros, puntos_validos):
             })
 
     return validos, rechazados
+# Crear indices unicos en MongoDB
+def crear_indices(db):
+
+    db.puntos_limpios.create_index(
+        "punto_id",
+        unique=True
+    )
+
+    db.retiros.create_index(
+        "retiro_id",
+        unique=True
+    )
+
+    print("Indice unico de puntos limpios creado")
+    print("Indice unico de retiros creado")
+
+# Verificar indices de MongoDB
+def verificar_indices(db):
+
+    print("\n--- INDICES DE PUNTOS LIMPIOS ---")
+
+    for indice in db.puntos_limpios.list_indexes():
+        print(indice)
+
+    print("\n--- INDICES DE RETIROS ---")
+
+    for indice in db.retiros.list_indexes():
+        print(indice)
+
+# Cargar documentos mediante bulk_write y upsert
+def cargar_documentos(coleccion, documentos, campo_id):
+
+    if not documentos:
+        print("No hay documentos para cargar")
+        return
+
+    operaciones = []
+
+    for documento in documentos:
+
+        operacion = UpdateOne(
+            {campo_id: documento[campo_id]},
+            {"$set": documento},
+            upsert=True
+        )
+
+        operaciones.append(operacion)
+
+    resultado = coleccion.bulk_write(
+        operaciones,
+        ordered=False
+    )
+
+    print("\nColeccion:", coleccion.name)
+    print("Documentos procesados:", len(documentos))
+    print("Documentos insertados:", resultado.upserted_count)
+    print("Documentos encontrados:", resultado.matched_count)
+    print("Documentos modificados:", resultado.modified_count)
+
+    return resultado
+
+
 
 # Programa principal
 def main():
@@ -265,11 +328,46 @@ def main():
             print("Base de datos:", db.name)
             print("Colecciones:", db.list_collection_names())
 
-        print("\nTransformacion finalizada correctamente")
+            # CREACION DE INDICES
+            print("\n--- CREACION DE INDICES ---")
+
+            crear_indices(db)
+
+            verificar_indices(db)
+            
+            # CARGA DE DOCUMENTOS
+            print("\n--- CARGA EN MONGODB ---")
+
+            cargar_documentos(
+                db.puntos_limpios,
+                puntos_validos,
+                "punto_id"
+            )
+
+            cargar_documentos(
+                db.retiros,
+                retiros_validos,
+                "retiro_id"
+            )
+
+            # CONTEO DE DOCUMENTOS
+            print("\n--- CONTEO EN MONGODB ---")
+
+            print(
+                "Total puntos limpios:",
+                db.puntos_limpios.count_documents({})
+            )
+
+            print(
+                "Total retiros:",
+                db.retiros.count_documents({})
+            )
 
     except Exception as error:
         print("Error:", type(error).__name__)
         raise SystemExit(1)
+    
+    print("\nProceso finalizado correctamente")
 
 
 if __name__ == "__main__":

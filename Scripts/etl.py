@@ -1,6 +1,9 @@
 import os
 from pathlib import Path
 
+import logging
+import time
+
 from datetime import datetime, timezone
 from bson.decimal128 import Decimal128
 from decimal import Decimal
@@ -15,6 +18,23 @@ from dotenv import load_dotenv
 # Cargar las variables de entorno
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
+
+# Configuracion de logs
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
+LOG_FILE = LOG_DIR / "etl.log"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE, encoding="utf-8"),
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger(__name__)
 
 
 # Conexion a PostgreSQL
@@ -238,7 +258,7 @@ def verificar_indices(db):
 def cargar_documentos(coleccion, documentos, campo_id):
 
     if not documentos:
-        print("No hay documentos para cargar")
+        logger.warning("No hay documentos para cargar")
         return
 
     operaciones = []
@@ -258,33 +278,36 @@ def cargar_documentos(coleccion, documentos, campo_id):
         ordered=False
     )
 
-    print("\nColeccion:", coleccion.name)
-    print("Documentos procesados:", len(documentos))
-    print("Documentos insertados:", resultado.upserted_count)
-    print("Documentos encontrados:", resultado.matched_count)
-    print("Documentos modificados:", resultado.modified_count)
+    logger.info("Coleccion: %s", coleccion.name)
+    logger.info("Documentos procesados: %s", len(documentos))
+    logger.info("Documentos insertados: %s", resultado.upserted_count)
+    logger.info("Documentos encontrados: %s", resultado.matched_count)
+    logger.info("Documentos modificados: %s", resultado.modified_count)
 
     return resultado
-
-
 
 # Programa principal
 def main():
 
+    inicio = time.perf_counter()
+
+    logger.info("========== INICIO DEL ETL ==========")
+
     try:
+
+        # EXTRACCION
         with conectar_postgresql() as pg:
 
             pg.read_only = True
 
-            print("Conexion exitosa con PostgreSQL")
+            logger.info("Conexion exitosa con PostgreSQL")
 
-            # EXTRACCION
             puntos = extraer_puntos_limpios(pg)
             retiros = extraer_retiros(pg)
 
-            print("\n--- EXTRACCION ---")
-            print("Puntos extraidos:", len(puntos))
-            print("Retiros extraidos:", len(retiros))
+            logger.info("--- EXTRACCION ---")
+            logger.info("Puntos extraidos: %s", len(puntos))
+            logger.info("Retiros extraidos: %s", len(retiros))
 
         # TRANSFORMACION
         puntos_validos, puntos_rechazados = (
@@ -295,48 +318,32 @@ def main():
             transformar_retiros(retiros, puntos_validos)
         )
 
-        print("\n--- TRANSFORMACION ---")
+        logger.info("--- TRANSFORMACION ---")
 
-        print("Puntos validos:", len(puntos_validos))
-        print("Puntos rechazados:", len(puntos_rechazados))
+        logger.info("Puntos validos: %s", len(puntos_validos))
+        logger.info("Puntos rechazados: %s", len(puntos_rechazados))
 
-        print("Retiros validos:", len(retiros_validos))
-        print("Retiros rechazados:", len(retiros_rechazados))
+        logger.info("Retiros validos: %s", len(retiros_validos))
+        logger.info("Retiros rechazados: %s", len(retiros_rechazados))
 
-        if puntos_validos:
-            print("\nEjemplo de punto transformado:")
-            print(puntos_validos[0])
+        for rechazo in puntos_rechazados:
+            logger.warning("Punto rechazado: %s", rechazo)
 
-        if retiros_validos:
-            print("\nEjemplo de retiro transformado:")
-            print(retiros_validos[0])
+        for rechazo in retiros_rechazados:
+            logger.warning("Retiro rechazado: %s", rechazo)
 
-        if puntos_rechazados:
-            print("\nPuntos rechazados:")
-            print(puntos_rechazados)
-
-        if retiros_rechazados:
-            print("\nRetiros rechazados:")
-            print(retiros_rechazados)
-
+        # CARGA
         with conectar_mongodb() as mongo:
 
-            print("\nConexion exitosa con MongoDB Atlas")
+            logger.info("Conexion exitosa con MongoDB Atlas")
 
             db = mongo[os.getenv("MONGO_DATABASE")]
 
-            print("Base de datos:", db.name)
-            print("Colecciones:", db.list_collection_names())
-
-            # CREACION DE INDICES
-            print("\n--- CREACION DE INDICES ---")
+            logger.info("--- CREACION DE INDICES ---")
 
             crear_indices(db)
 
-            verificar_indices(db)
-            
-            # CARGA DE DOCUMENTOS
-            print("\n--- CARGA EN MONGODB ---")
+            logger.info("--- CARGA EN MONGODB ---")
 
             cargar_documentos(
                 db.puntos_limpios,
@@ -350,24 +357,33 @@ def main():
                 "retiro_id"
             )
 
-            # CONTEO DE DOCUMENTOS
-            print("\n--- CONTEO EN MONGODB ---")
+            # CONTEOS
+            logger.info("--- CONTEO FINAL ---")
 
-            print(
-                "Total puntos limpios:",
+            logger.info(
+                "Total puntos limpios: %s",
                 db.puntos_limpios.count_documents({})
             )
 
-            print(
-                "Total retiros:",
+            logger.info(
+                "Total retiros: %s",
                 db.retiros.count_documents({})
             )
 
+        logger.info("ETL finalizado correctamente")
+
     except Exception as error:
-        print("Error:", type(error).__name__)
+
+        logger.error("Error durante el ETL: %s", type(error).__name__)
+
         raise SystemExit(1)
-    
-    print("\nProceso finalizado correctamente")
+
+    finally:
+
+        duracion = time.perf_counter() - inicio
+
+        logger.info("Tiempo de ejecucion: %.2f segundos", duracion)
+        logger.info("========== FIN DEL ETL ==========")
 
 
 if __name__ == "__main__":

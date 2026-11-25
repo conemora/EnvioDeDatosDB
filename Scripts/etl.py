@@ -286,6 +286,137 @@ def cargar_documentos(coleccion, documentos, campo_id):
 
     return resultado
 
+# Conciliacion de datos entre PostgreSQL y MongoDB
+def conciliar_datos(db, puntos, retiros):
+
+    logger.info("--- CONCILIACION DE DATOS ---")
+
+    total_pg_puntos = len(puntos)
+    total_pg_retiros = len(retiros)
+
+    total_mongo_puntos = db.puntos_limpios.count_documents({})
+    total_mongo_retiros = db.retiros.count_documents({})
+
+    diferencia_puntos = total_pg_puntos - total_mongo_puntos
+    diferencia_retiros = total_pg_retiros - total_mongo_retiros
+
+    logger.info("PostgreSQL - Puntos: %s", total_pg_puntos)
+    logger.info("MongoDB - Puntos: %s", total_mongo_puntos)
+    logger.info("Diferencia puntos: %s", diferencia_puntos)
+
+    logger.info("PostgreSQL - Retiros: %s", total_pg_retiros)
+    logger.info("MongoDB - Retiros: %s", total_mongo_retiros)
+    logger.info("Diferencia retiros: %s", diferencia_retiros)
+
+    if diferencia_puntos == 0 and diferencia_retiros == 0:
+        logger.info("Conciliacion de conteos exitosa")
+        return True
+
+    logger.error("Existen diferencias entre las bases de datos")
+    return False
+
+def verificar_identificadores(db, puntos, retiros):
+
+    ids_pg_puntos = {
+        punto["punto_id"] for punto in puntos
+    }
+
+    ids_pg_retiros = {
+        retiro["retiro_id"] for retiro in retiros
+    }
+
+    ids_mongo_puntos = {
+        punto["punto_id"]
+        for punto in db.puntos_limpios.find(
+            {}, {"_id": 0, "punto_id": 1}
+        )
+    }
+
+    ids_mongo_retiros = {
+        retiro["retiro_id"]
+        for retiro in db.retiros.find(
+            {}, {"_id": 0, "retiro_id": 1}
+        )
+    }
+
+    puntos_faltantes = ids_pg_puntos - ids_mongo_puntos
+    retiros_faltantes = ids_pg_retiros - ids_mongo_retiros
+
+    puntos_sobrantes = ids_mongo_puntos - ids_pg_puntos
+    retiros_sobrantes = ids_mongo_retiros - ids_pg_retiros
+
+    logger.info("--- VERIFICACION DE IDENTIFICADORES ---")
+
+    logger.info("Puntos faltantes: %s", len(puntos_faltantes))
+    logger.info("Retiros faltantes: %s", len(retiros_faltantes))
+    logger.info("Puntos sobrantes: %s", len(puntos_sobrantes))
+    logger.info("Retiros sobrantes: %s", len(retiros_sobrantes))
+
+    return not any([
+        puntos_faltantes,
+        retiros_faltantes,
+        puntos_sobrantes,
+        retiros_sobrantes
+    ])
+
+# Verificar retiros huerfanos en MongoDB
+def verificar_integridad(db):
+
+    ids_puntos = set(
+        db.puntos_limpios.distinct("punto_id")
+    )
+
+    retiros_huerfanos = db.retiros.count_documents({
+        "punto_id": {
+            "$nin": list(ids_puntos)
+        }
+    })
+
+    logger.info("--- INTEGRIDAD REFERENCIAL ---")
+
+    logger.info(
+        "Retiros huerfanos: %s",
+        retiros_huerfanos
+    )
+
+    return retiros_huerfanos == 0
+
+# Comparar kilogramos entre PostgreSQL y MongoDB
+def verificar_kilogramos(db, retiros):
+
+    total_pg = sum(
+        (Decimal(str(retiro["kg"])) for retiro in retiros),
+        Decimal("0")
+    )
+
+    resultado = list(db.retiros.aggregate([
+        {
+            "$group": {
+                "_id": None,
+                "total_kg": {"$sum": "$kg"}
+            }
+        }
+    ]))
+
+    if resultado:
+        total_mongo = resultado[0]["total_kg"]
+
+        if isinstance(total_mongo, Decimal128):
+            total_mongo = total_mongo.to_decimal()
+        else:
+            total_mongo = Decimal(str(total_mongo))
+    else:
+        total_mongo = Decimal("0")
+
+    diferencia = total_pg - total_mongo
+
+    logger.info("--- CONCILIACION DE KILOGRAMOS ---")
+    logger.info("Total kg PostgreSQL: %s", total_pg)
+    logger.info("Total kg MongoDB: %s", total_mongo)
+    logger.info("Diferencia kg: %s", diferencia)
+
+    return diferencia == 0
+
 # Programa principal
 def main():
 
@@ -369,6 +500,33 @@ def main():
                 "Total retiros: %s",
                 db.retiros.count_documents({})
             )
+            # VERIFICACION Y CONCILIACION
+            conteos_ok = conciliar_datos(
+                db, puntos, retiros
+            )
+
+            identificadores_ok = verificar_identificadores(
+                db, puntos, retiros
+            )
+
+            integridad_ok = verificar_integridad(db)
+
+            kilogramos_ok = verificar_kilogramos(
+                db, retiros
+            )
+
+            sin_rechazos = not puntos_rechazados and not retiros_rechazados
+
+            if all([
+                conteos_ok,
+                identificadores_ok,
+                integridad_ok,
+                kilogramos_ok,
+                sin_rechazos
+            ]):
+                logger.info("Todas las verificaciones fueron exitosas")
+            else:
+                raise RuntimeError("Fallo en la conciliacion de datos")
 
         logger.info("ETL finalizado correctamente")
 

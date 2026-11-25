@@ -1,0 +1,12 @@
+# Credenciales privadas
+.env
+
+# Entorno virtual
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Configuracion local del editor
+.vscode/

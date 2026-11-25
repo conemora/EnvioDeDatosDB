@@ -1,0 +1,1001 @@
+retiro_id,punto_id,fecha_retiro,material,kg,transportista,estado
+RET-0001,PL-001,2026-10-01T09:00:00+00:00,vidrio,91.76,Maule Circular,validado
+RET-0002,PL-002,2026-10-01T10:00:00+00:00,carton,97.64,Ruta Verde,observado
+RET-0003,PL-003,2026-10-01T11:00:00+00:00,vidrio,63.92,EcoTrans,observado
+RET-0004,PL-004,2026-10-01T12:00:00+00:00,plastico,41.24,Ruta Verde,recibido
+RET-0005,PL-005,2026-10-01T13:00:00+00:00,plastico,10.82,Ruta Verde,validado
+RET-0006,PL-006,2026-10-01T14:00:00+00:00,plastico,138.11,Maule Circular,validado
+RET-0007,PL-007,2026-10-01T15:00:00+00:00,carton,111.45,Maule Circular,observado
+RET-0008,PL-008,2026-10-01T16:00:00+00:00,plastico,104.2,EcoTrans,recibido
+RET-0009,PL-009,2026-10-01T17:00:00+00:00,plastico,124.72,EcoTrans,observado
+RET-0010,PL-010,2026-10-01T18:00:00+00:00,papel,144.85,Maule Circular,validado
+RET-0011,PL-011,2026-10-01T19:00:00+00:00,vidrio,114.89,Ruta Verde,observado
+RET-0012,PL-012,2026-10-01T20:00:00+00:00,plastico,141.2,Ruta Verde,observado
+RET-0013,PL-013,2026-10-01T21:00:00+00:00,vidrio,195.71,Maule Circular,recibido
+RET-0014,PL-014,2026-10-01T22:00:00+00:00,papel,9.67,EcoTrans,validado
+RET-0015,PL-015,2026-10-01T23:00:00+00:00,carton,197.37,EcoTrans,observado
+RET-0016,PL-016,2026-10-02T00:00:00+00:00,metal,66.95,EcoTrans,observado
+RET-0017,PL-017,2026-10-02T01:00:00+00:00,carton,134.22,Maule Circular,observado
+RET-0018,PL-018,2026-10-02T02:00:00+00:00,plastico,141.63,EcoTrans,validado
+RET-0019,PL-019,2026-10-02T03:00:00+00:00,papel,70.31,EcoTrans,recibido
+RET-0020,PL-020,2026-10-02T04:00:00+00:00,vidrio,54.9,Maule Circular,validado
+RET-0021,PL-021,2026-10-02T05:00:00+00:00,carton,94.42,EcoTrans,observado
+RET-0022,PL-022,2026-10-02T06:00:00+00:00,metal,175.07,Ruta Verde,observado
+RET-0023,PL-023,2026-10-02T07:00:00+00:00,papel,53.66,EcoTrans,observado
+RET-0024,PL-024,2026-10-02T08:00:00+00:00,carton,79.18,EcoTrans,validado
+RET-0025,PL-025,2026-10-02T09:00:00+00:00,vidrio,89.56,EcoTrans,observado
+RET-0026,PL-026,2026-10-02T10:00:00+00:00,metal,153.87,Maule Circular,recibido
+RET-0027,PL-027,2026-10-02T11:00:00+00:00,papel,197.88,Ruta Verde,validado
+RET-0028,PL-028,2026-10-02T12:00:00+00:00,vidrio,97.84,EcoTrans,recibido
+RET-0029,PL-029,2026-10-02T13:00:00+00:00,metal,68.95,Ruta Verde,recibido
+RET-0030,PL-030,2026-10-02T14:00:00+00:00,plastico,53.97,Ruta Verde,validado
+RET-0031,PL-001,2026-10-02T15:00:00+00:00,metal,83.18,Maule Circular,observado
+RET-0032,PL-002,2026-10-02T16:00:00+00:00,carton,154.03,Ruta Verde,observado
+RET-0033,PL-003,2026-10-02T17:00:00+00:00,vidrio,83.5,Ruta Verde,validado
+RET-0034,PL-004,2026-10-02T18:00:00+00:00,plastico,177.27,EcoTrans,validado
+RET-0035,PL-005,2026-10-02T19:00:00+00:00,carton,16.84,Ruta Verde,validado
+RET-0036,PL-006,2026-10-02T20:00:00+00:00,vidrio,40.2,Ruta Verde,observado
+RET-0037,PL-007,2026-10-02T21:00:00+00:00,papel,143.99,EcoTrans,recibido
+RET-0038,PL-008,2026-10-02T22:00:00+00:00,carton,68.83,Maule Circular,observado
+RET-0039,PL-009,2026-10-02T23:00:00+00:00,plastico,54.34,Maule Circular,validado
+RET-0040,PL-010,2026-10-03T00:00:00+00:00,metal,79.12,EcoTrans,validado
+RET-0041,PL-011,2026-10-03T01:00:00+00:00,papel,122.81,Maule Circular,recibido
+RET-0042,PL-012,2026-10-03T02:00:00+00:00,carton,62.2,Maule Circular,recibido
+RET-0043,PL-013,2026-10-03T03:00:00+00:00,papel,70.72,Maule Circular,validado
+RET-0044,PL-014,2026-10-03T04:00:00+00:00,papel,37.43,Ruta Verde,validado
+RET-0045,PL-015,2026-10-03T05:00:00+00:00,vidrio,81.75,Ruta Verde,recibido
+RET-0046,PL-016,2026-10-03T06:00:00+00:00,papel,173.98,Ruta Verde,observado
+RET-0047,PL-017,2026-10-03T07:00:00+00:00,plastico,83.82,EcoTrans,recibido
+RET-0048,PL-018,2026-10-03T08:00:00+00:00,metal,124.96,Maule Circular,observado
+RET-0049,PL-019,2026-10-03T09:00:00+00:00,vidrio,69.87,Ruta Verde,recibido
+RET-0050,PL-020,2026-10-03T10:00:00+00:00,metal,143.22,Ruta Verde,observado
+RET-0051,PL-021,2026-10-03T11:00:00+00:00,carton,77.35,Ruta Verde,recibido
+RET-0052,PL-022,2026-10-03T12:00:00+00:00,plastico,67.73,Maule Circular,recibido
+RET-0053,PL-023,2026-10-03T13:00:00+00:00,carton,42.48,Ruta Verde,validado
+RET-0054,PL-024,2026-10-03T14:00:00+00:00,plastico,25.08,Ruta Verde,observado
+RET-0055,PL-025,2026-10-03T15:00:00+00:00,metal,129.34,Ruta Verde,observado
+RET-0056,PL-026,2026-10-03T16:00:00+00:00,metal,80.38,Maule Circular,recibido
+RET-0057,PL-027,2026-10-03T17:00:00+00:00,papel,102.77,Maule Circular,validado
+RET-0058,PL-028,2026-10-03T18:00:00+00:00,carton,164.63,Ruta Verde,recibido
+RET-0059,PL-029,2026-10-03T19:00:00+00:00,vidrio,43.74,Ruta Verde,recibido
+RET-0060,PL-030,2026-10-03T20:00:00+00:00,carton,191.64,Ruta Verde,validado
+RET-0061,PL-001,2026-10-03T21:00:00+00:00,metal,42.21,Maule Circular,observado
+RET-0062,PL-002,2026-10-03T22:00:00+00:00,papel,124.46,EcoTrans,recibido
+RET-0063,PL-003,2026-10-03T23:00:00+00:00,vidrio,110.55,Maule Circular,observado
+RET-0064,PL-004,2026-10-04T00:00:00+00:00,papel,106.74,Ruta Verde,validado
+RET-0065,PL-005,2026-10-04T01:00:00+00:00,plastico,14.65,Maule Circular,recibido
+RET-0066,PL-006,2026-10-04T02:00:00+00:00,plastico,73.26,Ruta Verde,validado
+RET-0067,PL-007,2026-10-04T03:00:00+00:00,metal,169.01,Ruta Verde,recibido
+RET-0068,PL-008,2026-10-04T04:00:00+00:00,carton,63.5,Maule Circular,observado
+RET-0069,PL-009,2026-10-04T05:00:00+00:00,plastico,101.15,Ruta Verde,recibido
+RET-0070,PL-010,2026-10-04T06:00:00+00:00,plastico,49.99,Maule Circular,recibido
+RET-0071,PL-011,2026-10-04T07:00:00+00:00,vidrio,147.01,Ruta Verde,observado
+RET-0072,PL-012,2026-10-04T08:00:00+00:00,metal,64.78,EcoTrans,validado
+RET-0073,PL-013,2026-10-04T09:00:00+00:00,vidrio,38.34,Maule Circular,recibido
+RET-0074,PL-014,2026-10-04T10:00:00+00:00,plastico,154.68,EcoTrans,recibido
+RET-0075,PL-015,2026-10-04T11:00:00+00:00,metal,89.01,Ruta Verde,observado
+RET-0076,PL-016,2026-10-04T12:00:00+00:00,carton,16.6,Maule Circular,recibido
+RET-0077,PL-017,2026-10-04T13:00:00+00:00,papel,47.68,EcoTrans,observado
+RET-0078,PL-018,2026-10-04T14:00:00+00:00,metal,139.74,Maule Circular,observado
+RET-0079,PL-019,2026-10-04T15:00:00+00:00,vidrio,49.54,EcoTrans,recibido
+RET-0080,PL-020,2026-10-04T16:00:00+00:00,papel,31.31,Ruta Verde,observado
+RET-0081,PL-021,2026-10-04T17:00:00+00:00,carton,170.38,Maule Circular,recibido
+RET-0082,PL-022,2026-10-04T18:00:00+00:00,metal,109.98,Ruta Verde,observado
+RET-0083,PL-023,2026-10-04T19:00:00+00:00,carton,158.77,Maule Circular,recibido
+RET-0084,PL-024,2026-10-04T20:00:00+00:00,vidrio,48.63,Maule Circular,observado
+RET-0085,PL-025,2026-10-04T21:00:00+00:00,vidrio,131.51,Ruta Verde,observado
+RET-0086,PL-026,2026-10-04T22:00:00+00:00,plastico,85.64,Ruta Verde,recibido
+RET-0087,PL-027,2026-10-04T23:00:00+00:00,plastico,91.48,Maule Circular,validado
+RET-0088,PL-028,2026-10-05T00:00:00+00:00,vidrio,60.94,Maule Circular,recibido
+RET-0089,PL-029,2026-10-05T01:00:00+00:00,metal,133.71,Ruta Verde,validado
+RET-0090,PL-030,2026-10-05T02:00:00+00:00,carton,9.02,Maule Circular,observado
+RET-0091,PL-001,2026-10-05T03:00:00+00:00,vidrio,48.22,Maule Circular,validado
+RET-0092,PL-002,2026-10-05T04:00:00+00:00,papel,58.96,EcoTrans,observado
+RET-0093,PL-003,2026-10-05T05:00:00+00:00,plastico,122.56,EcoTrans,recibido
+RET-0094,PL-004,2026-10-05T06:00:00+00:00,papel,95.74,EcoTrans,validado
+RET-0095,PL-005,2026-10-05T07:00:00+00:00,plastico,41.84,EcoTrans,observado
+RET-0096,PL-006,2026-10-05T08:00:00+00:00,carton,198.29,Ruta Verde,validado
+RET-0097,PL-007,2026-10-05T09:00:00+00:00,metal,179.44,EcoTrans,recibido
+RET-0098,PL-008,2026-10-05T10:00:00+00:00,plastico,56.65,Ruta Verde,validado
+RET-0099,PL-009,2026-10-05T11:00:00+00:00,carton,80.52,Ruta Verde,recibido
+RET-0100,PL-010,2026-10-05T12:00:00+00:00,papel,185.02,EcoTrans,recibido
+RET-0101,PL-011,2026-10-05T13:00:00+00:00,vidrio,51.31,EcoTrans,validado
+RET-0102,PL-012,2026-10-05T14:00:00+00:00,plastico,26.48,Ruta Verde,observado
+RET-0103,PL-013,2026-10-05T15:00:00+00:00,papel,41.32,Ruta Verde,observado
+RET-0104,PL-014,2026-10-05T16:00:00+00:00,plastico,120.23,Ruta Verde,recibido
+RET-0105,PL-015,2026-10-05T17:00:00+00:00,metal,140.45,EcoTrans,validado
+RET-0106,PL-016,2026-10-05T18:00:00+00:00,carton,162.81,Ruta Verde,validado
+RET-0107,PL-017,2026-10-05T19:00:00+00:00,plastico,196.91,Ruta Verde,recibido
+RET-0108,PL-018,2026-10-05T20:00:00+00:00,metal,68.24,EcoTrans,observado
+RET-0109,PL-019,2026-10-05T21:00:00+00:00,papel,62.19,EcoTrans,observado
+RET-0110,PL-020,2026-10-05T22:00:00+00:00,metal,39.04,Maule Circular,validado
+RET-0111,PL-021,2026-10-05T23:00:00+00:00,metal,75.11,Ruta Verde,recibido
+RET-0112,PL-022,2026-10-06T00:00:00+00:00,metal,84.84,Maule Circular,recibido
+RET-0113,PL-023,2026-10-06T01:00:00+00:00,metal,39.54,Ruta Verde,validado
+RET-0114,PL-024,2026-10-06T02:00:00+00:00,carton,105.61,Ruta Verde,validado
+RET-0115,PL-025,2026-10-06T03:00:00+00:00,metal,102.91,EcoTrans,recibido
+RET-0116,PL-026,2026-10-06T04:00:00+00:00,carton,42.5,Ruta Verde,validado
+RET-0117,PL-027,2026-10-06T05:00:00+00:00,papel,111.56,Maule Circular,recibido
+RET-0118,PL-028,2026-10-06T06:00:00+00:00,vidrio,107.29,Ruta Verde,validado
+RET-0119,PL-029,2026-10-06T07:00:00+00:00,vidrio,196.93,Ruta Verde,validado
+RET-0120,PL-030,2026-10-06T08:00:00+00:00,carton,124.08,EcoTrans,observado
+RET-0121,PL-001,2026-10-06T09:00:00+00:00,vidrio,22.42,Maule Circular,validado
+RET-0122,PL-002,2026-10-06T10:00:00+00:00,carton,90.97,Ruta Verde,observado
+RET-0123,PL-003,2026-10-06T11:00:00+00:00,papel,111.15,EcoTrans,observado
+RET-0124,PL-004,2026-10-06T12:00:00+00:00,papel,122.18,Maule Circular,observado
+RET-0125,PL-005,2026-10-06T13:00:00+00:00,carton,27.0,Ruta Verde,observado
+RET-0126,PL-006,2026-10-06T14:00:00+00:00,carton,119.12,EcoTrans,validado
+RET-0127,PL-007,2026-10-06T15:00:00+00:00,metal,29.18,EcoTrans,recibido
+RET-0128,PL-008,2026-10-06T16:00:00+00:00,carton,114.94,Maule Circular,recibido
+RET-0129,PL-009,2026-10-06T17:00:00+00:00,plastico,35.19,EcoTrans,recibido
+RET-0130,PL-010,2026-10-06T18:00:00+00:00,papel,113.54,Ruta Verde,validado
+RET-0131,PL-011,2026-10-06T19:00:00+00:00,vidrio,48.5,Ruta Verde,recibido
+RET-0132,PL-012,2026-10-06T20:00:00+00:00,metal,170.51,Maule Circular,validado
+RET-0133,PL-013,2026-10-06T21:00:00+00:00,papel,76.99,EcoTrans,observado
+RET-0134,PL-014,2026-10-06T22:00:00+00:00,carton,91.05,Ruta Verde,recibido
+RET-0135,PL-015,2026-10-06T23:00:00+00:00,vidrio,36.55,EcoTrans,recibido
+RET-0136,PL-016,2026-10-07T00:00:00+00:00,carton,186.49,Maule Circular,recibido
+RET-0137,PL-017,2026-10-07T01:00:00+00:00,papel,142.27,Maule Circular,observado
+RET-0138,PL-018,2026-10-07T02:00:00+00:00,vidrio,75.09,Ruta Verde,validado
+RET-0139,PL-019,2026-10-07T03:00:00+00:00,vidrio,80.53,EcoTrans,validado
+RET-0140,PL-020,2026-10-07T04:00:00+00:00,vidrio,66.99,Maule Circular,validado
+RET-0141,PL-021,2026-10-07T05:00:00+00:00,papel,172.76,EcoTrans,validado
+RET-0142,PL-022,2026-10-07T06:00:00+00:00,plastico,33.73,Ruta Verde,recibido
+RET-0143,PL-023,2026-10-07T07:00:00+00:00,carton,114.46,Maule Circular,validado
+RET-0144,PL-024,2026-10-07T08:00:00+00:00,plastico,198.98,EcoTrans,validado
+RET-0145,PL-025,2026-10-07T09:00:00+00:00,carton,17.8,Ruta Verde,observado
+RET-0146,PL-026,2026-10-07T10:00:00+00:00,plastico,113.87,Ruta Verde,observado
+RET-0147,PL-027,2026-10-07T11:00:00+00:00,plastico,89.13,Ruta Verde,recibido
+RET-0148,PL-028,2026-10-07T12:00:00+00:00,vidrio,180.99,Ruta Verde,recibido
+RET-0149,PL-029,2026-10-07T13:00:00+00:00,carton,32.85,Maule Circular,validado
+RET-0150,PL-030,2026-10-07T14:00:00+00:00,carton,172.31,Ruta Verde,recibido
+RET-0151,PL-001,2026-10-07T15:00:00+00:00,vidrio,177.63,Maule Circular,observado
+RET-0152,PL-002,2026-10-07T16:00:00+00:00,carton,21.36,Maule Circular,recibido
+RET-0153,PL-003,2026-10-07T17:00:00+00:00,plastico,52.56,Ruta Verde,observado
+RET-0154,PL-004,2026-10-07T18:00:00+00:00,metal,132.79,EcoTrans,validado
+RET-0155,PL-005,2026-10-07T19:00:00+00:00,carton,156.91,Maule Circular,validado
+RET-0156,PL-006,2026-10-07T20:00:00+00:00,carton,96.69,Ruta Verde,validado
+RET-0157,PL-007,2026-10-07T21:00:00+00:00,carton,27.21,EcoTrans,validado
+RET-0158,PL-008,2026-10-07T22:00:00+00:00,plastico,5.63,Ruta Verde,validado
+RET-0159,PL-009,2026-10-07T23:00:00+00:00,carton,32.41,Maule Circular,validado
+RET-0160,PL-010,2026-10-08T00:00:00+00:00,metal,198.8,Maule Circular,observado
+RET-0161,PL-011,2026-10-08T01:00:00+00:00,metal,76.41,Ruta Verde,validado
+RET-0162,PL-012,2026-10-08T02:00:00+00:00,carton,127.35,EcoTrans,validado
+RET-0163,PL-013,2026-10-08T03:00:00+00:00,papel,155.4,Ruta Verde,recibido
+RET-0164,PL-014,2026-10-08T04:00:00+00:00,plastico,18.0,EcoTrans,validado
+RET-0165,PL-015,2026-10-08T05:00:00+00:00,metal,135.02,EcoTrans,recibido
+RET-0166,PL-016,2026-10-08T06:00:00+00:00,carton,197.05,Ruta Verde,recibido
+RET-0167,PL-017,2026-10-08T07:00:00+00:00,plastico,71.76,EcoTrans,observado
+RET-0168,PL-018,2026-10-08T08:00:00+00:00,plastico,98.83,Ruta Verde,recibido
+RET-0169,PL-019,2026-10-08T09:00:00+00:00,vidrio,188.61,EcoTrans,recibido
+RET-0170,PL-020,2026-10-08T10:00:00+00:00,vidrio,123.49,Ruta Verde,validado
+RET-0171,PL-021,2026-10-08T11:00:00+00:00,carton,63.57,Maule Circular,recibido
+RET-0172,PL-022,2026-10-08T12:00:00+00:00,metal,88.99,Ruta Verde,validado
+RET-0173,PL-023,2026-10-08T13:00:00+00:00,papel,29.0,EcoTrans,observado
+RET-0174,PL-024,2026-10-08T14:00:00+00:00,vidrio,171.21,Ruta Verde,validado
+RET-0175,PL-025,2026-10-08T15:00:00+00:00,vidrio,121.16,Maule Circular,observado
+RET-0176,PL-026,2026-10-08T16:00:00+00:00,plastico,189.43,EcoTrans,validado
+RET-0177,PL-027,2026-10-08T17:00:00+00:00,papel,183.81,Ruta Verde,recibido
+RET-0178,PL-028,2026-10-08T18:00:00+00:00,vidrio,30.67,EcoTrans,recibido
+RET-0179,PL-029,2026-10-08T19:00:00+00:00,metal,29.84,Maule Circular,recibido
+RET-0180,PL-030,2026-10-08T20:00:00+00:00,plastico,71.14,Maule Circular,validado
+RET-0181,PL-001,2026-10-08T21:00:00+00:00,metal,44.63,Maule Circular,observado
+RET-0182,PL-002,2026-10-08T22:00:00+00:00,carton,147.55,Maule Circular,observado
+RET-0183,PL-003,2026-10-08T23:00:00+00:00,papel,181.01,Maule Circular,recibido
+RET-0184,PL-004,2026-10-09T00:00:00+00:00,metal,12.39,Ruta Verde,validado
+RET-0185,PL-005,2026-10-09T01:00:00+00:00,papel,163.63,Maule Circular,recibido
+RET-0186,PL-006,2026-10-09T02:00:00+00:00,vidrio,128.96,Ruta Verde,validado
+RET-0187,PL-007,2026-10-09T03:00:00+00:00,carton,27.01,Maule Circular,observado
+RET-0188,PL-008,2026-10-09T04:00:00+00:00,plastico,20.37,EcoTrans,observado
+RET-0189,PL-009,2026-10-09T05:00:00+00:00,plastico,25.35,Maule Circular,recibido
+RET-0190,PL-010,2026-10-09T06:00:00+00:00,papel,100.62,EcoTrans,validado
+RET-0191,PL-011,2026-10-09T07:00:00+00:00,metal,73.98,Maule Circular,recibido
+RET-0192,PL-012,2026-10-09T08:00:00+00:00,plastico,151.07,EcoTrans,observado
+RET-0193,PL-013,2026-10-09T09:00:00+00:00,vidrio,59.49,Maule Circular,recibido
+RET-0194,PL-014,2026-10-09T10:00:00+00:00,plastico,97.25,EcoTrans,recibido
+RET-0195,PL-015,2026-10-09T11:00:00+00:00,metal,186.95,Maule Circular,recibido
+RET-0196,PL-016,2026-10-09T12:00:00+00:00,carton,37.13,EcoTrans,observado
+RET-0197,PL-017,2026-10-09T13:00:00+00:00,carton,114.0,EcoTrans,validado
+RET-0198,PL-018,2026-10-09T14:00:00+00:00,plastico,158.33,EcoTrans,recibido
+RET-0199,PL-019,2026-10-09T15:00:00+00:00,metal,164.0,Maule Circular,recibido
+RET-0200,PL-020,2026-10-09T16:00:00+00:00,vidrio,184.17,Maule Circular,recibido
+RET-0201,PL-021,2026-10-09T17:00:00+00:00,papel,61.22,Ruta Verde,validado
+RET-0202,PL-022,2026-10-09T18:00:00+00:00,plastico,65.44,Maule Circular,recibido
+RET-0203,PL-023,2026-10-09T19:00:00+00:00,metal,24.54,Maule Circular,recibido
+RET-0204,PL-024,2026-10-09T20:00:00+00:00,plastico,146.4,EcoTrans,observado
+RET-0205,PL-025,2026-10-09T21:00:00+00:00,vidrio,60.6,Maule Circular,recibido
+RET-0206,PL-026,2026-10-09T22:00:00+00:00,plastico,163.65,EcoTrans,observado
+RET-0207,PL-027,2026-10-09T23:00:00+00:00,plastico,185.99,Maule Circular,validado
+RET-0208,PL-028,2026-10-10T00:00:00+00:00,metal,48.28,Maule Circular,validado
+RET-0209,PL-029,2026-10-10T01:00:00+00:00,vidrio,43.18,EcoTrans,observado
+RET-0210,PL-030,2026-10-10T02:00:00+00:00,carton,146.99,Ruta Verde,observado
+RET-0211,PL-001,2026-10-10T03:00:00+00:00,plastico,198.5,Ruta Verde,recibido
+RET-0212,PL-002,2026-10-10T04:00:00+00:00,plastico,114.55,EcoTrans,validado
+RET-0213,PL-003,2026-10-10T05:00:00+00:00,vidrio,49.8,EcoTrans,observado
+RET-0214,PL-004,2026-10-10T06:00:00+00:00,metal,126.33,Maule Circular,recibido
+RET-0215,PL-005,2026-10-10T07:00:00+00:00,papel,191.73,Ruta Verde,observado
+RET-0216,PL-006,2026-10-10T08:00:00+00:00,plastico,32.34,Ruta Verde,observado
+RET-0217,PL-007,2026-10-10T09:00:00+00:00,carton,174.8,Maule Circular,observado
+RET-0218,PL-008,2026-10-10T10:00:00+00:00,plastico,67.09,EcoTrans,recibido
+RET-0219,PL-009,2026-10-10T11:00:00+00:00,carton,58.15,Ruta Verde,validado
+RET-0220,PL-010,2026-10-10T12:00:00+00:00,metal,112.87,Ruta Verde,recibido
+RET-0221,PL-011,2026-10-10T13:00:00+00:00,papel,87.59,Maule Circular,observado
+RET-0222,PL-012,2026-10-10T14:00:00+00:00,carton,8.36,Ruta Verde,validado
+RET-0223,PL-013,2026-10-10T15:00:00+00:00,metal,30.88,EcoTrans,validado
+RET-0224,PL-014,2026-10-10T16:00:00+00:00,plastico,48.39,EcoTrans,observado
+RET-0225,PL-015,2026-10-10T17:00:00+00:00,metal,98.07,EcoTrans,recibido
+RET-0226,PL-016,2026-10-10T18:00:00+00:00,metal,53.06,EcoTrans,recibido
+RET-0227,PL-017,2026-10-10T19:00:00+00:00,papel,183.32,Ruta Verde,validado
+RET-0228,PL-018,2026-10-10T20:00:00+00:00,vidrio,49.42,Maule Circular,observado
+RET-0229,PL-019,2026-10-10T21:00:00+00:00,papel,135.3,EcoTrans,recibido
+RET-0230,PL-020,2026-10-10T22:00:00+00:00,vidrio,66.61,Ruta Verde,observado
+RET-0231,PL-021,2026-10-10T23:00:00+00:00,papel,99.54,EcoTrans,recibido
+RET-0232,PL-022,2026-10-11T00:00:00+00:00,vidrio,101.62,Maule Circular,recibido
+RET-0233,PL-023,2026-10-11T01:00:00+00:00,metal,68.12,Ruta Verde,validado
+RET-0234,PL-024,2026-10-11T02:00:00+00:00,carton,38.7,EcoTrans,recibido
+RET-0235,PL-025,2026-10-11T03:00:00+00:00,vidrio,132.43,Ruta Verde,validado
+RET-0236,PL-026,2026-10-11T04:00:00+00:00,plastico,135.79,EcoTrans,observado
+RET-0237,PL-027,2026-10-11T05:00:00+00:00,plastico,159.1,Maule Circular,observado
+RET-0238,PL-028,2026-10-11T06:00:00+00:00,carton,131.44,EcoTrans,recibido
+RET-0239,PL-029,2026-10-11T07:00:00+00:00,carton,108.37,Maule Circular,recibido
+RET-0240,PL-030,2026-10-11T08:00:00+00:00,carton,41.16,Maule Circular,validado
+RET-0241,PL-001,2026-10-11T09:00:00+00:00,metal,187.11,Maule Circular,observado
+RET-0242,PL-002,2026-10-11T10:00:00+00:00,papel,99.06,Ruta Verde,validado
+RET-0243,PL-003,2026-10-11T11:00:00+00:00,vidrio,136.39,EcoTrans,validado
+RET-0244,PL-004,2026-10-11T12:00:00+00:00,metal,79.52,Ruta Verde,observado
+RET-0245,PL-005,2026-10-11T13:00:00+00:00,papel,140.97,EcoTrans,observado
+RET-0246,PL-006,2026-10-11T14:00:00+00:00,plastico,99.41,Maule Circular,observado
+RET-0247,PL-007,2026-10-11T15:00:00+00:00,carton,156.6,Maule Circular,recibido
+RET-0248,PL-008,2026-10-11T16:00:00+00:00,carton,57.97,EcoTrans,validado
+RET-0249,PL-009,2026-10-11T17:00:00+00:00,metal,103.83,EcoTrans,observado
+RET-0250,PL-010,2026-10-11T18:00:00+00:00,metal,125.42,Ruta Verde,validado
+RET-0251,PL-011,2026-10-11T19:00:00+00:00,papel,187.1,EcoTrans,recibido
+RET-0252,PL-012,2026-10-11T20:00:00+00:00,metal,44.3,Ruta Verde,observado
+RET-0253,PL-013,2026-10-11T21:00:00+00:00,metal,24.52,Ruta Verde,recibido
+RET-0254,PL-014,2026-10-11T22:00:00+00:00,carton,59.47,Maule Circular,validado
+RET-0255,PL-015,2026-10-11T23:00:00+00:00,carton,28.84,Maule Circular,observado
+RET-0256,PL-016,2026-10-12T00:00:00+00:00,carton,185.01,Maule Circular,observado
+RET-0257,PL-017,2026-10-12T01:00:00+00:00,papel,131.22,Maule Circular,validado
+RET-0258,PL-018,2026-10-12T02:00:00+00:00,plastico,93.11,Ruta Verde,observado
+RET-0259,PL-019,2026-10-12T03:00:00+00:00,metal,168.59,Maule Circular,observado
+RET-0260,PL-020,2026-10-12T04:00:00+00:00,vidrio,172.76,Ruta Verde,recibido
+RET-0261,PL-021,2026-10-12T05:00:00+00:00,metal,146.03,Maule Circular,observado
+RET-0262,PL-022,2026-10-12T06:00:00+00:00,vidrio,43.3,Ruta Verde,recibido
+RET-0263,PL-023,2026-10-12T07:00:00+00:00,metal,39.77,Ruta Verde,validado
+RET-0264,PL-024,2026-10-12T08:00:00+00:00,plastico,114.0,Maule Circular,recibido
+RET-0265,PL-025,2026-10-12T09:00:00+00:00,vidrio,15.33,Ruta Verde,recibido
+RET-0266,PL-026,2026-10-12T10:00:00+00:00,metal,36.11,EcoTrans,validado
+RET-0267,PL-027,2026-10-12T11:00:00+00:00,papel,86.22,EcoTrans,recibido
+RET-0268,PL-028,2026-10-12T12:00:00+00:00,metal,87.72,Maule Circular,observado
+RET-0269,PL-029,2026-10-12T13:00:00+00:00,metal,103.14,Ruta Verde,observado
+RET-0270,PL-030,2026-10-12T14:00:00+00:00,plastico,34.9,EcoTrans,observado
+RET-0271,PL-001,2026-10-12T15:00:00+00:00,vidrio,192.45,Maule Circular,validado
+RET-0272,PL-002,2026-10-12T16:00:00+00:00,plastico,35.42,EcoTrans,validado
+RET-0273,PL-003,2026-10-12T17:00:00+00:00,papel,124.48,EcoTrans,observado
+RET-0274,PL-004,2026-10-12T18:00:00+00:00,metal,104.43,Ruta Verde,validado
+RET-0275,PL-005,2026-10-12T19:00:00+00:00,papel,124.36,Maule Circular,recibido
+RET-0276,PL-006,2026-10-12T20:00:00+00:00,vidrio,25.83,Ruta Verde,observado
+RET-0277,PL-007,2026-10-12T21:00:00+00:00,papel,95.38,Ruta Verde,recibido
+RET-0278,PL-008,2026-10-12T22:00:00+00:00,carton,143.24,EcoTrans,recibido
+RET-0279,PL-009,2026-10-12T23:00:00+00:00,plastico,42.47,EcoTrans,recibido
+RET-0280,PL-010,2026-10-13T00:00:00+00:00,papel,53.89,EcoTrans,recibido
+RET-0281,PL-011,2026-10-13T01:00:00+00:00,metal,16.17,Ruta Verde,observado
+RET-0282,PL-012,2026-10-13T02:00:00+00:00,plastico,195.93,Ruta Verde,recibido
+RET-0283,PL-013,2026-10-13T03:00:00+00:00,papel,51.53,Maule Circular,observado
+RET-0284,PL-014,2026-10-13T04:00:00+00:00,carton,14.28,Maule Circular,validado
+RET-0285,PL-015,2026-10-13T05:00:00+00:00,metal,121.85,Maule Circular,validado
+RET-0286,PL-016,2026-10-13T06:00:00+00:00,papel,132.28,Maule Circular,recibido
+RET-0287,PL-017,2026-10-13T07:00:00+00:00,plastico,107.18,EcoTrans,recibido
+RET-0288,PL-018,2026-10-13T08:00:00+00:00,vidrio,70.03,Maule Circular,recibido
+RET-0289,PL-019,2026-10-13T09:00:00+00:00,papel,39.61,Maule Circular,recibido
+RET-0290,PL-020,2026-10-13T10:00:00+00:00,papel,141.58,Maule Circular,recibido
+RET-0291,PL-021,2026-10-13T11:00:00+00:00,papel,53.8,Ruta Verde,recibido
+RET-0292,PL-022,2026-10-13T12:00:00+00:00,plastico,41.72,Maule Circular,recibido
+RET-0293,PL-023,2026-10-13T13:00:00+00:00,metal,78.49,Maule Circular,observado
+RET-0294,PL-024,2026-10-13T14:00:00+00:00,vidrio,114.84,EcoTrans,validado
+RET-0295,PL-025,2026-10-13T15:00:00+00:00,carton,74.18,Ruta Verde,recibido
+RET-0296,PL-026,2026-10-13T16:00:00+00:00,plastico,159.37,EcoTrans,observado
+RET-0297,PL-027,2026-10-13T17:00:00+00:00,papel,188.57,EcoTrans,validado
+RET-0298,PL-028,2026-10-13T18:00:00+00:00,carton,92.61,Maule Circular,recibido
+RET-0299,PL-029,2026-10-13T19:00:00+00:00,vidrio,156.37,Ruta Verde,validado
+RET-0300,PL-030,2026-10-13T20:00:00+00:00,plastico,128.18,Ruta Verde,recibido
+RET-0301,PL-001,2026-10-13T21:00:00+00:00,vidrio,6.34,EcoTrans,observado
+RET-0302,PL-002,2026-10-13T22:00:00+00:00,carton,160.91,Ruta Verde,observado
+RET-0303,PL-003,2026-10-13T23:00:00+00:00,vidrio,56.35,Ruta Verde,recibido
+RET-0304,PL-004,2026-10-14T00:00:00+00:00,metal,141.47,Maule Circular,validado
+RET-0305,PL-005,2026-10-14T01:00:00+00:00,plastico,18.91,Ruta Verde,observado
+RET-0306,PL-006,2026-10-14T02:00:00+00:00,vidrio,108.71,EcoTrans,observado
+RET-0307,PL-007,2026-10-14T03:00:00+00:00,metal,89.63,Maule Circular,observado
+RET-0308,PL-008,2026-10-14T04:00:00+00:00,carton,170.07,Ruta Verde,observado
+RET-0309,PL-009,2026-10-14T05:00:00+00:00,carton,161.62,Ruta Verde,observado
+RET-0310,PL-010,2026-10-14T06:00:00+00:00,plastico,52.12,Maule Circular,validado
+RET-0311,PL-011,2026-10-14T07:00:00+00:00,papel,73.81,Maule Circular,observado
+RET-0312,PL-012,2026-10-14T08:00:00+00:00,carton,16.22,Ruta Verde,validado
+RET-0313,PL-013,2026-10-14T09:00:00+00:00,papel,39.46,Maule Circular,validado
+RET-0314,PL-014,2026-10-14T10:00:00+00:00,carton,57.2,Maule Circular,observado
+RET-0315,PL-015,2026-10-14T11:00:00+00:00,metal,37.52,EcoTrans,observado
+RET-0316,PL-016,2026-10-14T12:00:00+00:00,carton,129.42,Ruta Verde,recibido
+RET-0317,PL-017,2026-10-14T13:00:00+00:00,plastico,9.29,Ruta Verde,validado
+RET-0318,PL-018,2026-10-14T14:00:00+00:00,metal,30.19,Maule Circular,validado
+RET-0319,PL-019,2026-10-14T15:00:00+00:00,vidrio,87.48,EcoTrans,observado
+RET-0320,PL-020,2026-10-14T16:00:00+00:00,metal,147.87,EcoTrans,validado
+RET-0321,PL-021,2026-10-14T17:00:00+00:00,carton,168.27,EcoTrans,observado
+RET-0322,PL-022,2026-10-14T18:00:00+00:00,vidrio,150.93,Ruta Verde,observado
+RET-0323,PL-023,2026-10-14T19:00:00+00:00,papel,174.07,EcoTrans,recibido
+RET-0324,PL-024,2026-10-14T20:00:00+00:00,plastico,191.03,Ruta Verde,validado
+RET-0325,PL-025,2026-10-14T21:00:00+00:00,carton,198.29,EcoTrans,validado
+RET-0326,PL-026,2026-10-14T22:00:00+00:00,plastico,98.55,Maule Circular,recibido
+RET-0327,PL-027,2026-10-14T23:00:00+00:00,papel,10.89,Maule Circular,validado
+RET-0328,PL-028,2026-10-15T00:00:00+00:00,vidrio,50.56,Ruta Verde,recibido
+RET-0329,PL-029,2026-10-15T01:00:00+00:00,carton,169.04,Maule Circular,validado
+RET-0330,PL-030,2026-10-15T02:00:00+00:00,carton,133.48,Maule Circular,observado
+RET-0331,PL-001,2026-10-15T03:00:00+00:00,metal,53.01,EcoTrans,validado
+RET-0332,PL-002,2026-10-15T04:00:00+00:00,carton,74.93,Maule Circular,observado
+RET-0333,PL-003,2026-10-15T05:00:00+00:00,plastico,80.15,Ruta Verde,validado
+RET-0334,PL-004,2026-10-15T06:00:00+00:00,papel,61.06,Ruta Verde,observado
+RET-0335,PL-005,2026-10-15T07:00:00+00:00,carton,17.84,Ruta Verde,validado
+RET-0336,PL-006,2026-10-15T08:00:00+00:00,vidrio,126.44,EcoTrans,recibido
+RET-0337,PL-007,2026-10-15T09:00:00+00:00,carton,153.14,EcoTrans,observado
+RET-0338,PL-008,2026-10-15T10:00:00+00:00,carton,36.58,Maule Circular,recibido
+RET-0339,PL-009,2026-10-15T11:00:00+00:00,plastico,13.98,Ruta Verde,validado
+RET-0340,PL-010,2026-10-15T12:00:00+00:00,plastico,137.08,EcoTrans,validado
+RET-0341,PL-011,2026-10-15T13:00:00+00:00,metal,137.56,Ruta Verde,observado
+RET-0342,PL-012,2026-10-15T14:00:00+00:00,carton,53.49,Ruta Verde,validado
+RET-0343,PL-013,2026-10-15T15:00:00+00:00,papel,85.6,EcoTrans,recibido
+RET-0344,PL-014,2026-10-15T16:00:00+00:00,plastico,154.93,Ruta Verde,recibido
+RET-0345,PL-015,2026-10-15T17:00:00+00:00,metal,123.47,Maule Circular,recibido
+RET-0346,PL-016,2026-10-15T18:00:00+00:00,metal,14.33,Maule Circular,observado
+RET-0347,PL-017,2026-10-15T19:00:00+00:00,carton,160.94,Maule Circular,validado
+RET-0348,PL-018,2026-10-15T20:00:00+00:00,metal,195.59,Ruta Verde,validado
+RET-0349,PL-019,2026-10-15T21:00:00+00:00,papel,14.73,EcoTrans,validado
+RET-0350,PL-020,2026-10-15T22:00:00+00:00,vidrio,125.44,EcoTrans,recibido
+RET-0351,PL-021,2026-10-15T23:00:00+00:00,carton,166.66,Ruta Verde,validado
+RET-0352,PL-022,2026-10-16T00:00:00+00:00,plastico,158.93,Maule Circular,recibido
+RET-0353,PL-023,2026-10-16T01:00:00+00:00,metal,20.8,Maule Circular,recibido
+RET-0354,PL-024,2026-10-16T02:00:00+00:00,carton,155.58,EcoTrans,validado
+RET-0355,PL-025,2026-10-16T03:00:00+00:00,metal,6.56,Maule Circular,recibido
+RET-0356,PL-026,2026-10-16T04:00:00+00:00,carton,94.18,Maule Circular,validado
+RET-0357,PL-027,2026-10-16T05:00:00+00:00,plastico,18.68,EcoTrans,observado
+RET-0358,PL-028,2026-10-16T06:00:00+00:00,metal,53.95,EcoTrans,validado
+RET-0359,PL-029,2026-10-16T07:00:00+00:00,metal,194.32,Maule Circular,recibido
+RET-0360,PL-030,2026-10-16T08:00:00+00:00,carton,98.56,Maule Circular,recibido
+RET-0361,PL-001,2026-10-16T09:00:00+00:00,plastico,170.35,Ruta Verde,validado
+RET-0362,PL-002,2026-10-16T10:00:00+00:00,papel,116.58,Ruta Verde,validado
+RET-0363,PL-003,2026-10-16T11:00:00+00:00,plastico,99.25,Maule Circular,validado
+RET-0364,PL-004,2026-10-16T12:00:00+00:00,papel,97.35,Ruta Verde,recibido
+RET-0365,PL-005,2026-10-16T13:00:00+00:00,plastico,141.46,Ruta Verde,validado
+RET-0366,PL-006,2026-10-16T14:00:00+00:00,vidrio,180.89,Maule Circular,recibido
+RET-0367,PL-007,2026-10-16T15:00:00+00:00,metal,145.31,EcoTrans,recibido
+RET-0368,PL-008,2026-10-16T16:00:00+00:00,plastico,128.67,EcoTrans,observado
+RET-0369,PL-009,2026-10-16T17:00:00+00:00,carton,135.1,Ruta Verde,recibido
+RET-0370,PL-010,2026-10-16T18:00:00+00:00,metal,166.66,Ruta Verde,validado
+RET-0371,PL-011,2026-10-16T19:00:00+00:00,metal,97.59,Maule Circular,recibido
+RET-0372,PL-012,2026-10-16T20:00:00+00:00,metal,124.8,Maule Circular,recibido
+RET-0373,PL-013,2026-10-16T21:00:00+00:00,papel,12.38,Ruta Verde,observado
+RET-0374,PL-014,2026-10-16T22:00:00+00:00,papel,103.63,Ruta Verde,recibido
+RET-0375,PL-015,2026-10-16T23:00:00+00:00,carton,62.0,EcoTrans,observado
+RET-0376,PL-016,2026-10-17T00:00:00+00:00,metal,86.79,Ruta Verde,observado
+RET-0377,PL-017,2026-10-17T01:00:00+00:00,papel,109.62,EcoTrans,validado
+RET-0378,PL-018,2026-10-17T02:00:00+00:00,vidrio,17.49,Ruta Verde,observado
+RET-0379,PL-019,2026-10-17T03:00:00+00:00,metal,56.64,Ruta Verde,validado
+RET-0380,PL-020,2026-10-17T04:00:00+00:00,papel,189.56,EcoTrans,validado
+RET-0381,PL-021,2026-10-17T05:00:00+00:00,metal,117.45,Ruta Verde,validado
+RET-0382,PL-022,2026-10-17T06:00:00+00:00,plastico,38.05,Ruta Verde,observado
+RET-0383,PL-023,2026-10-17T07:00:00+00:00,metal,34.79,Maule Circular,validado
+RET-0384,PL-024,2026-10-17T08:00:00+00:00,plastico,25.33,EcoTrans,recibido
+RET-0385,PL-025,2026-10-17T09:00:00+00:00,carton,135.33,Maule Circular,observado
+RET-0386,PL-026,2026-10-17T10:00:00+00:00,plastico,9.58,EcoTrans,recibido
+RET-0387,PL-027,2026-10-17T11:00:00+00:00,plastico,58.81,EcoTrans,recibido
+RET-0388,PL-028,2026-10-17T12:00:00+00:00,metal,112.5,EcoTrans,observado
+RET-0389,PL-029,2026-10-17T13:00:00+00:00,vidrio,97.56,EcoTrans,validado
+RET-0390,PL-030,2026-10-17T14:00:00+00:00,vidrio,71.65,EcoTrans,observado
+RET-0391,PL-001,2026-10-17T15:00:00+00:00,plastico,29.46,EcoTrans,validado
+RET-0392,PL-002,2026-10-17T16:00:00+00:00,carton,105.58,Ruta Verde,recibido
+RET-0393,PL-003,2026-10-17T17:00:00+00:00,plastico,95.0,Ruta Verde,validado
+RET-0394,PL-004,2026-10-17T18:00:00+00:00,plastico,100.7,EcoTrans,recibido
+RET-0395,PL-005,2026-10-17T19:00:00+00:00,plastico,47.08,EcoTrans,validado
+RET-0396,PL-006,2026-10-17T20:00:00+00:00,carton,175.35,EcoTrans,recibido
+RET-0397,PL-007,2026-10-17T21:00:00+00:00,papel,119.5,EcoTrans,validado
+RET-0398,PL-008,2026-10-17T22:00:00+00:00,metal,175.95,EcoTrans,recibido
+RET-0399,PL-009,2026-10-17T23:00:00+00:00,carton,120.7,Maule Circular,recibido
+RET-0400,PL-010,2026-10-18T00:00:00+00:00,metal,50.28,Ruta Verde,validado
+RET-0401,PL-011,2026-10-18T01:00:00+00:00,vidrio,71.31,Maule Circular,validado
+RET-0402,PL-012,2026-10-18T02:00:00+00:00,carton,111.74,EcoTrans,validado
+RET-0403,PL-013,2026-10-18T03:00:00+00:00,papel,38.03,Maule Circular,validado
+RET-0404,PL-014,2026-10-18T04:00:00+00:00,plastico,161.78,Ruta Verde,observado
+RET-0405,PL-015,2026-10-18T05:00:00+00:00,carton,181.79,EcoTrans,recibido
+RET-0406,PL-016,2026-10-18T06:00:00+00:00,papel,18.15,Ruta Verde,recibido
+RET-0407,PL-017,2026-10-18T07:00:00+00:00,papel,75.76,Ruta Verde,recibido
+RET-0408,PL-018,2026-10-18T08:00:00+00:00,plastico,35.27,Ruta Verde,observado
+RET-0409,PL-019,2026-10-18T09:00:00+00:00,papel,167.78,Ruta Verde,observado
+RET-0410,PL-020,2026-10-18T10:00:00+00:00,metal,24.05,Ruta Verde,recibido
+RET-0411,PL-021,2026-10-18T11:00:00+00:00,papel,115.15,Maule Circular,observado
+RET-0412,PL-022,2026-10-18T12:00:00+00:00,plastico,190.3,Maule Circular,recibido
+RET-0413,PL-023,2026-10-18T13:00:00+00:00,carton,7.55,Ruta Verde,validado
+RET-0414,PL-024,2026-10-18T14:00:00+00:00,carton,64.66,Ruta Verde,recibido
+RET-0415,PL-025,2026-10-18T15:00:00+00:00,carton,54.52,Maule Circular,observado
+RET-0416,PL-026,2026-10-18T16:00:00+00:00,carton,73.59,Ruta Verde,recibido
+RET-0417,PL-027,2026-10-18T17:00:00+00:00,metal,123.89,EcoTrans,recibido
+RET-0418,PL-028,2026-10-18T18:00:00+00:00,carton,166.32,Ruta Verde,validado
+RET-0419,PL-029,2026-10-18T19:00:00+00:00,carton,145.35,Ruta Verde,recibido
+RET-0420,PL-030,2026-10-18T20:00:00+00:00,plastico,68.9,Maule Circular,recibido
+RET-0421,PL-001,2026-10-18T21:00:00+00:00,plastico,131.22,Ruta Verde,observado
+RET-0422,PL-002,2026-10-18T22:00:00+00:00,papel,72.58,Ruta Verde,recibido
+RET-0423,PL-003,2026-10-18T23:00:00+00:00,plastico,17.46,Maule Circular,recibido
+RET-0424,PL-004,2026-10-19T00:00:00+00:00,papel,77.72,Maule Circular,validado
+RET-0425,PL-005,2026-10-19T01:00:00+00:00,plastico,160.86,Ruta Verde,validado
+RET-0426,PL-006,2026-10-19T02:00:00+00:00,plastico,17.65,Ruta Verde,validado
+RET-0427,PL-007,2026-10-19T03:00:00+00:00,metal,196.5,EcoTrans,recibido
+RET-0428,PL-008,2026-10-19T04:00:00+00:00,carton,16.1,Ruta Verde,observado
+RET-0429,PL-009,2026-10-19T05:00:00+00:00,metal,14.02,Maule Circular,validado
+RET-0430,PL-010,2026-10-19T06:00:00+00:00,plastico,158.3,EcoTrans,observado
+RET-0431,PL-011,2026-10-19T07:00:00+00:00,vidrio,137.94,Maule Circular,validado
+RET-0432,PL-012,2026-10-19T08:00:00+00:00,metal,123.01,EcoTrans,observado
+RET-0433,PL-013,2026-10-19T09:00:00+00:00,papel,181.39,Maule Circular,recibido
+RET-0434,PL-014,2026-10-19T10:00:00+00:00,carton,129.47,Maule Circular,observado
+RET-0435,PL-015,2026-10-19T11:00:00+00:00,vidrio,62.0,Ruta Verde,validado
+RET-0436,PL-016,2026-10-19T12:00:00+00:00,carton,141.22,EcoTrans,recibido
+RET-0437,PL-017,2026-10-19T13:00:00+00:00,papel,117.35,EcoTrans,observado
+RET-0438,PL-018,2026-10-19T14:00:00+00:00,vidrio,80.05,Maule Circular,observado
+RET-0439,PL-019,2026-10-19T15:00:00+00:00,vidrio,180.58,EcoTrans,recibido
+RET-0440,PL-020,2026-10-19T16:00:00+00:00,papel,31.58,Ruta Verde,recibido
+RET-0441,PL-021,2026-10-19T17:00:00+00:00,carton,138.76,EcoTrans,recibido
+RET-0442,PL-022,2026-10-19T18:00:00+00:00,plastico,158.75,Maule Circular,recibido
+RET-0443,PL-023,2026-10-19T19:00:00+00:00,papel,97.78,EcoTrans,observado
+RET-0444,PL-024,2026-10-19T20:00:00+00:00,plastico,22.61,Maule Circular,validado
+RET-0445,PL-025,2026-10-19T21:00:00+00:00,metal,26.2,Ruta Verde,observado
+RET-0446,PL-026,2026-10-19T22:00:00+00:00,carton,118.76,Maule Circular,observado
+RET-0447,PL-027,2026-10-19T23:00:00+00:00,plastico,55.73,EcoTrans,recibido
+RET-0448,PL-028,2026-10-20T00:00:00+00:00,metal,78.13,Ruta Verde,observado
+RET-0449,PL-029,2026-10-20T01:00:00+00:00,carton,58.84,EcoTrans,observado
+RET-0450,PL-030,2026-10-20T02:00:00+00:00,carton,109.97,Ruta Verde,recibido
+RET-0451,PL-001,2026-10-20T03:00:00+00:00,metal,28.34,Maule Circular,validado
+RET-0452,PL-002,2026-10-20T04:00:00+00:00,plastico,114.91,Maule Circular,observado
+RET-0453,PL-003,2026-10-20T05:00:00+00:00,papel,112.93,Ruta Verde,validado
+RET-0454,PL-004,2026-10-20T06:00:00+00:00,plastico,142.37,Maule Circular,validado
+RET-0455,PL-005,2026-10-20T07:00:00+00:00,plastico,92.38,Maule Circular,observado
+RET-0456,PL-006,2026-10-20T08:00:00+00:00,carton,32.19,Ruta Verde,observado
+RET-0457,PL-007,2026-10-20T09:00:00+00:00,metal,96.14,Ruta Verde,validado
+RET-0458,PL-008,2026-10-20T10:00:00+00:00,plastico,184.67,Ruta Verde,observado
+RET-0459,PL-009,2026-10-20T11:00:00+00:00,plastico,111.92,Ruta Verde,recibido
+RET-0460,PL-010,2026-10-20T12:00:00+00:00,metal,95.25,Ruta Verde,validado
+RET-0461,PL-011,2026-10-20T13:00:00+00:00,vidrio,124.94,Maule Circular,validado
+RET-0462,PL-012,2026-10-20T14:00:00+00:00,plastico,118.02,EcoTrans,recibido
+RET-0463,PL-013,2026-10-20T15:00:00+00:00,papel,162.72,Ruta Verde,validado
+RET-0464,PL-014,2026-10-20T16:00:00+00:00,papel,63.87,Maule Circular,recibido
+RET-0465,PL-015,2026-10-20T17:00:00+00:00,carton,127.98,Maule Circular,validado
+RET-0466,PL-016,2026-10-20T18:00:00+00:00,papel,108.75,Maule Circular,observado
+RET-0467,PL-017,2026-10-20T19:00:00+00:00,papel,79.2,EcoTrans,observado
+RET-0468,PL-018,2026-10-20T20:00:00+00:00,plastico,173.92,Ruta Verde,recibido
+RET-0469,PL-019,2026-10-20T21:00:00+00:00,papel,161.99,Ruta Verde,recibido
+RET-0470,PL-020,2026-10-20T22:00:00+00:00,metal,177.6,EcoTrans,validado
+RET-0471,PL-021,2026-10-20T23:00:00+00:00,metal,89.13,EcoTrans,validado
+RET-0472,PL-022,2026-10-21T00:00:00+00:00,metal,178.69,Maule Circular,observado
+RET-0473,PL-023,2026-10-21T01:00:00+00:00,metal,96.39,Maule Circular,observado
+RET-0474,PL-024,2026-10-21T02:00:00+00:00,carton,5.44,EcoTrans,validado
+RET-0475,PL-025,2026-10-21T03:00:00+00:00,vidrio,114.84,Ruta Verde,observado
+RET-0476,PL-026,2026-10-21T04:00:00+00:00,carton,193.12,Maule Circular,validado
+RET-0477,PL-027,2026-10-21T05:00:00+00:00,papel,12.13,Maule Circular,validado
+RET-0478,PL-028,2026-10-21T06:00:00+00:00,metal,89.83,EcoTrans,recibido
+RET-0479,PL-029,2026-10-21T07:00:00+00:00,carton,193.91,Maule Circular,recibido
+RET-0480,PL-030,2026-10-21T08:00:00+00:00,plastico,30.31,Ruta Verde,validado
+RET-0481,PL-001,2026-10-21T09:00:00+00:00,plastico,125.03,EcoTrans,recibido
+RET-0482,PL-002,2026-10-21T10:00:00+00:00,plastico,7.81,Maule Circular,observado
+RET-0483,PL-003,2026-10-21T11:00:00+00:00,plastico,167.36,Ruta Verde,recibido
+RET-0484,PL-004,2026-10-21T12:00:00+00:00,metal,147.21,Maule Circular,recibido
+RET-0485,PL-005,2026-10-21T13:00:00+00:00,carton,69.11,Ruta Verde,validado
+RET-0486,PL-006,2026-10-21T14:00:00+00:00,plastico,194.69,EcoTrans,observado
+RET-0487,PL-007,2026-10-21T15:00:00+00:00,papel,7.95,Maule Circular,validado
+RET-0488,PL-008,2026-10-21T16:00:00+00:00,plastico,18.21,EcoTrans,recibido
+RET-0489,PL-009,2026-10-21T17:00:00+00:00,metal,136.02,EcoTrans,recibido
+RET-0490,PL-010,2026-10-21T18:00:00+00:00,papel,191.51,Maule Circular,validado
+RET-0491,PL-011,2026-10-21T19:00:00+00:00,metal,163.62,EcoTrans,observado
+RET-0492,PL-012,2026-10-21T20:00:00+00:00,carton,184.69,Ruta Verde,recibido
+RET-0493,PL-013,2026-10-21T21:00:00+00:00,papel,134.8,Maule Circular,validado
+RET-0494,PL-014,2026-10-21T22:00:00+00:00,carton,183.44,Maule Circular,validado
+RET-0495,PL-015,2026-10-21T23:00:00+00:00,metal,165.07,EcoTrans,recibido
+RET-0496,PL-016,2026-10-22T00:00:00+00:00,metal,110.15,Maule Circular,observado
+RET-0497,PL-017,2026-10-22T01:00:00+00:00,plastico,71.23,Maule Circular,validado
+RET-0498,PL-018,2026-10-22T02:00:00+00:00,plastico,86.06,Ruta Verde,observado
+RET-0499,PL-019,2026-10-22T03:00:00+00:00,papel,24.61,Ruta Verde,recibido
+RET-0500,PL-020,2026-10-22T04:00:00+00:00,papel,160.12,Ruta Verde,observado
+RET-0501,PL-021,2026-10-22T05:00:00+00:00,metal,167.72,Maule Circular,recibido
+RET-0502,PL-022,2026-10-22T06:00:00+00:00,plastico,36.51,EcoTrans,observado
+RET-0503,PL-023,2026-10-22T07:00:00+00:00,papel,77.57,Ruta Verde,validado
+RET-0504,PL-024,2026-10-22T08:00:00+00:00,vidrio,81.81,Ruta Verde,observado
+RET-0505,PL-025,2026-10-22T09:00:00+00:00,vidrio,18.75,Maule Circular,validado
+RET-0506,PL-026,2026-10-22T10:00:00+00:00,plastico,28.3,EcoTrans,recibido
+RET-0507,PL-027,2026-10-22T11:00:00+00:00,plastico,99.06,Ruta Verde,recibido
+RET-0508,PL-028,2026-10-22T12:00:00+00:00,vidrio,25.29,EcoTrans,observado
+RET-0509,PL-029,2026-10-22T13:00:00+00:00,carton,114.79,Ruta Verde,recibido
+RET-0510,PL-030,2026-10-22T14:00:00+00:00,carton,88.37,Maule Circular,observado
+RET-0511,PL-001,2026-10-22T15:00:00+00:00,vidrio,198.92,EcoTrans,recibido
+RET-0512,PL-002,2026-10-22T16:00:00+00:00,plastico,121.67,Maule Circular,validado
+RET-0513,PL-003,2026-10-22T17:00:00+00:00,vidrio,68.38,Maule Circular,observado
+RET-0514,PL-004,2026-10-22T18:00:00+00:00,plastico,76.1,Ruta Verde,observado
+RET-0515,PL-005,2026-10-22T19:00:00+00:00,papel,157.97,Ruta Verde,validado
+RET-0516,PL-006,2026-10-22T20:00:00+00:00,carton,106.0,EcoTrans,validado
+RET-0517,PL-007,2026-10-22T21:00:00+00:00,metal,198.28,EcoTrans,validado
+RET-0518,PL-008,2026-10-22T22:00:00+00:00,carton,135.39,Ruta Verde,recibido
+RET-0519,PL-009,2026-10-22T23:00:00+00:00,plastico,6.54,Ruta Verde,validado
+RET-0520,PL-010,2026-10-23T00:00:00+00:00,papel,159.74,Ruta Verde,validado
+RET-0521,PL-011,2026-10-23T01:00:00+00:00,metal,152.65,Ruta Verde,observado
+RET-0522,PL-012,2026-10-23T02:00:00+00:00,carton,158.47,Maule Circular,observado
+RET-0523,PL-013,2026-10-23T03:00:00+00:00,vidrio,199.22,Maule Circular,recibido
+RET-0524,PL-014,2026-10-23T04:00:00+00:00,plastico,119.89,Maule Circular,recibido
+RET-0525,PL-015,2026-10-23T05:00:00+00:00,vidrio,76.71,EcoTrans,recibido
+RET-0526,PL-016,2026-10-23T06:00:00+00:00,carton,61.91,Ruta Verde,recibido
+RET-0527,PL-017,2026-10-23T07:00:00+00:00,plastico,146.87,Maule Circular,validado
+RET-0528,PL-018,2026-10-23T08:00:00+00:00,vidrio,72.25,Maule Circular,validado
+RET-0529,PL-019,2026-10-23T09:00:00+00:00,papel,87.74,Maule Circular,observado
+RET-0530,PL-020,2026-10-23T10:00:00+00:00,vidrio,38.49,EcoTrans,observado
+RET-0531,PL-021,2026-10-23T11:00:00+00:00,papel,120.98,EcoTrans,validado
+RET-0532,PL-022,2026-10-23T12:00:00+00:00,metal,186.18,Ruta Verde,observado
+RET-0533,PL-023,2026-10-23T13:00:00+00:00,metal,155.33,Ruta Verde,validado
+RET-0534,PL-024,2026-10-23T14:00:00+00:00,carton,50.17,Ruta Verde,observado
+RET-0535,PL-025,2026-10-23T15:00:00+00:00,vidrio,37.35,Maule Circular,validado
+RET-0536,PL-026,2026-10-23T16:00:00+00:00,plastico,76.81,Maule Circular,observado
+RET-0537,PL-027,2026-10-23T17:00:00+00:00,papel,58.23,EcoTrans,recibido
+RET-0538,PL-028,2026-10-23T18:00:00+00:00,metal,184.27,EcoTrans,validado
+RET-0539,PL-029,2026-10-23T19:00:00+00:00,carton,24.5,EcoTrans,validado
+RET-0540,PL-030,2026-10-23T20:00:00+00:00,plastico,145.15,EcoTrans,observado
+RET-0541,PL-001,2026-10-23T21:00:00+00:00,plastico,163.56,Ruta Verde,observado
+RET-0542,PL-002,2026-10-23T22:00:00+00:00,carton,5.48,Maule Circular,observado
+RET-0543,PL-003,2026-10-23T23:00:00+00:00,plastico,22.44,Ruta Verde,recibido
+RET-0544,PL-004,2026-10-24T00:00:00+00:00,metal,10.21,Maule Circular,observado
+RET-0545,PL-005,2026-10-24T01:00:00+00:00,papel,178.58,Ruta Verde,validado
+RET-0546,PL-006,2026-10-24T02:00:00+00:00,vidrio,5.82,EcoTrans,observado
+RET-0547,PL-007,2026-10-24T03:00:00+00:00,metal,106.95,Maule Circular,observado
+RET-0548,PL-008,2026-10-24T04:00:00+00:00,metal,154.4,Ruta Verde,recibido
+RET-0549,PL-009,2026-10-24T05:00:00+00:00,metal,52.38,EcoTrans,recibido
+RET-0550,PL-010,2026-10-24T06:00:00+00:00,metal,84.54,Maule Circular,validado
+RET-0551,PL-011,2026-10-24T07:00:00+00:00,vidrio,169.71,Ruta Verde,recibido
+RET-0552,PL-012,2026-10-24T08:00:00+00:00,metal,145.74,EcoTrans,recibido
+RET-0553,PL-013,2026-10-24T09:00:00+00:00,vidrio,81.17,Ruta Verde,observado
+RET-0554,PL-014,2026-10-24T10:00:00+00:00,carton,92.46,EcoTrans,observado
+RET-0555,PL-015,2026-10-24T11:00:00+00:00,vidrio,10.57,Maule Circular,recibido
+RET-0556,PL-016,2026-10-24T12:00:00+00:00,metal,55.94,EcoTrans,validado
+RET-0557,PL-017,2026-10-24T13:00:00+00:00,plastico,157.58,Maule Circular,observado
+RET-0558,PL-018,2026-10-24T14:00:00+00:00,vidrio,197.58,Ruta Verde,validado
+RET-0559,PL-019,2026-10-24T15:00:00+00:00,vidrio,132.21,Ruta Verde,observado
+RET-0560,PL-020,2026-10-24T16:00:00+00:00,vidrio,179.48,Maule Circular,observado
+RET-0561,PL-021,2026-10-24T17:00:00+00:00,papel,30.82,Maule Circular,validado
+RET-0562,PL-022,2026-10-24T18:00:00+00:00,vidrio,140.52,EcoTrans,recibido
+RET-0563,PL-023,2026-10-24T19:00:00+00:00,carton,152.68,Ruta Verde,validado
+RET-0564,PL-024,2026-10-24T20:00:00+00:00,carton,133.56,EcoTrans,observado
+RET-0565,PL-025,2026-10-24T21:00:00+00:00,metal,152.25,Ruta Verde,recibido
+RET-0566,PL-026,2026-10-24T22:00:00+00:00,carton,29.35,EcoTrans,recibido
+RET-0567,PL-027,2026-10-24T23:00:00+00:00,plastico,126.98,EcoTrans,validado
+RET-0568,PL-028,2026-10-25T00:00:00+00:00,carton,195.93,EcoTrans,validado
+RET-0569,PL-029,2026-10-25T01:00:00+00:00,carton,75.57,Maule Circular,observado
+RET-0570,PL-030,2026-10-25T02:00:00+00:00,carton,56.54,EcoTrans,recibido
+RET-0571,PL-001,2026-10-25T03:00:00+00:00,metal,73.6,EcoTrans,validado
+RET-0572,PL-002,2026-10-25T04:00:00+00:00,carton,75.31,Maule Circular,validado
+RET-0573,PL-003,2026-10-25T05:00:00+00:00,papel,15.56,Ruta Verde,recibido
+RET-0574,PL-004,2026-10-25T06:00:00+00:00,metal,29.71,Maule Circular,observado
+RET-0575,PL-005,2026-10-25T07:00:00+00:00,papel,194.33,EcoTrans,validado
+RET-0576,PL-006,2026-10-25T08:00:00+00:00,plastico,184.12,Ruta Verde,validado
+RET-0577,PL-007,2026-10-25T09:00:00+00:00,metal,104.12,Ruta Verde,validado
+RET-0578,PL-008,2026-10-25T10:00:00+00:00,carton,87.61,Ruta Verde,observado
+RET-0579,PL-009,2026-10-25T11:00:00+00:00,metal,7.41,EcoTrans,validado
+RET-0580,PL-010,2026-10-25T12:00:00+00:00,papel,115.33,Ruta Verde,observado
+RET-0581,PL-011,2026-10-25T13:00:00+00:00,papel,70.43,Maule Circular,recibido
+RET-0582,PL-012,2026-10-25T14:00:00+00:00,plastico,175.76,Maule Circular,validado
+RET-0583,PL-013,2026-10-25T15:00:00+00:00,vidrio,19.51,EcoTrans,recibido
+RET-0584,PL-014,2026-10-25T16:00:00+00:00,plastico,149.52,Ruta Verde,observado
+RET-0585,PL-015,2026-10-25T17:00:00+00:00,metal,124.58,EcoTrans,recibido
+RET-0586,PL-016,2026-10-25T18:00:00+00:00,papel,104.79,Maule Circular,observado
+RET-0587,PL-017,2026-10-25T19:00:00+00:00,plastico,38.0,Maule Circular,recibido
+RET-0588,PL-018,2026-10-25T20:00:00+00:00,vidrio,186.02,EcoTrans,recibido
+RET-0589,PL-019,2026-10-25T21:00:00+00:00,papel,154.94,EcoTrans,recibido
+RET-0590,PL-020,2026-10-25T22:00:00+00:00,metal,111.53,Maule Circular,observado
+RET-0591,PL-021,2026-10-25T23:00:00+00:00,metal,133.79,Maule Circular,recibido
+RET-0592,PL-022,2026-10-26T00:00:00+00:00,plastico,74.28,Ruta Verde,validado
+RET-0593,PL-023,2026-10-26T01:00:00+00:00,metal,90.56,Maule Circular,observado
+RET-0594,PL-024,2026-10-26T02:00:00+00:00,vidrio,125.66,Ruta Verde,validado
+RET-0595,PL-025,2026-10-26T03:00:00+00:00,carton,121.73,Maule Circular,validado
+RET-0596,PL-026,2026-10-26T04:00:00+00:00,metal,6.26,Maule Circular,recibido
+RET-0597,PL-027,2026-10-26T05:00:00+00:00,plastico,100.85,Maule Circular,validado
+RET-0598,PL-028,2026-10-26T06:00:00+00:00,metal,99.54,EcoTrans,recibido
+RET-0599,PL-029,2026-10-26T07:00:00+00:00,carton,15.66,Maule Circular,recibido
+RET-0600,PL-030,2026-10-26T08:00:00+00:00,carton,195.43,EcoTrans,recibido
+RET-0601,PL-001,2026-10-26T09:00:00+00:00,plastico,27.27,Ruta Verde,observado
+RET-0602,PL-002,2026-10-26T10:00:00+00:00,papel,35.37,Ruta Verde,recibido
+RET-0603,PL-003,2026-10-26T11:00:00+00:00,papel,178.21,Maule Circular,validado
+RET-0604,PL-004,2026-10-26T12:00:00+00:00,metal,199.91,Ruta Verde,validado
+RET-0605,PL-005,2026-10-26T13:00:00+00:00,plastico,149.09,Maule Circular,observado
+RET-0606,PL-006,2026-10-26T14:00:00+00:00,vidrio,42.17,EcoTrans,observado
+RET-0607,PL-007,2026-10-26T15:00:00+00:00,metal,178.85,Ruta Verde,observado
+RET-0608,PL-008,2026-10-26T16:00:00+00:00,carton,157.18,EcoTrans,observado
+RET-0609,PL-009,2026-10-26T17:00:00+00:00,metal,84.73,EcoTrans,validado
+RET-0610,PL-010,2026-10-26T18:00:00+00:00,metal,93.02,EcoTrans,validado
+RET-0611,PL-011,2026-10-26T19:00:00+00:00,papel,128.88,EcoTrans,recibido
+RET-0612,PL-012,2026-10-26T20:00:00+00:00,plastico,83.47,EcoTrans,validado
+RET-0613,PL-013,2026-10-26T21:00:00+00:00,papel,25.58,Ruta Verde,observado
+RET-0614,PL-014,2026-10-26T22:00:00+00:00,carton,51.43,Ruta Verde,observado
+RET-0615,PL-015,2026-10-26T23:00:00+00:00,metal,33.99,Ruta Verde,validado
+RET-0616,PL-016,2026-10-27T00:00:00+00:00,papel,79.81,EcoTrans,validado
+RET-0617,PL-017,2026-10-27T01:00:00+00:00,plastico,128.89,Ruta Verde,validado
+RET-0618,PL-018,2026-10-27T02:00:00+00:00,vidrio,59.68,Maule Circular,observado
+RET-0619,PL-019,2026-10-27T03:00:00+00:00,papel,152.32,Maule Circular,validado
+RET-0620,PL-020,2026-10-27T04:00:00+00:00,metal,44.65,Maule Circular,recibido
+RET-0621,PL-021,2026-10-27T05:00:00+00:00,metal,95.41,EcoTrans,validado
+RET-0622,PL-022,2026-10-27T06:00:00+00:00,metal,38.73,Ruta Verde,recibido
+RET-0623,PL-023,2026-10-27T07:00:00+00:00,carton,102.95,EcoTrans,observado
+RET-0624,PL-024,2026-10-27T08:00:00+00:00,carton,86.89,EcoTrans,observado
+RET-0625,PL-025,2026-10-27T09:00:00+00:00,carton,125.87,Maule Circular,recibido
+RET-0626,PL-026,2026-10-27T10:00:00+00:00,metal,44.33,EcoTrans,recibido
+RET-0627,PL-027,2026-10-27T11:00:00+00:00,metal,56.99,Maule Circular,observado
+RET-0628,PL-028,2026-10-27T12:00:00+00:00,metal,73.56,Maule Circular,observado
+RET-0629,PL-029,2026-10-27T13:00:00+00:00,vidrio,56.09,EcoTrans,observado
+RET-0630,PL-030,2026-10-27T14:00:00+00:00,vidrio,74.2,Ruta Verde,recibido
+RET-0631,PL-001,2026-10-27T15:00:00+00:00,vidrio,92.37,EcoTrans,recibido
+RET-0632,PL-002,2026-10-27T16:00:00+00:00,plastico,157.52,Maule Circular,observado
+RET-0633,PL-003,2026-10-27T17:00:00+00:00,vidrio,193.55,Maule Circular,validado
+RET-0634,PL-004,2026-10-27T18:00:00+00:00,plastico,22.94,Maule Circular,recibido
+RET-0635,PL-005,2026-10-27T19:00:00+00:00,carton,118.54,EcoTrans,recibido
+RET-0636,PL-006,2026-10-27T20:00:00+00:00,carton,158.96,EcoTrans,validado
+RET-0637,PL-007,2026-10-27T21:00:00+00:00,papel,63.01,Maule Circular,recibido
+RET-0638,PL-008,2026-10-27T22:00:00+00:00,metal,164.32,Ruta Verde,recibido
+RET-0639,PL-009,2026-10-27T23:00:00+00:00,carton,55.76,Maule Circular,recibido
+RET-0640,PL-010,2026-10-28T00:00:00+00:00,papel,22.43,Ruta Verde,recibido
+RET-0641,PL-011,2026-10-28T01:00:00+00:00,metal,131.41,Maule Circular,validado
+RET-0642,PL-012,2026-10-28T02:00:00+00:00,plastico,132.95,Ruta Verde,observado
+RET-0643,PL-013,2026-10-28T03:00:00+00:00,papel,47.92,Ruta Verde,recibido
+RET-0644,PL-014,2026-10-28T04:00:00+00:00,carton,177.04,Ruta Verde,validado
+RET-0645,PL-015,2026-10-28T05:00:00+00:00,vidrio,193.36,Maule Circular,observado
+RET-0646,PL-016,2026-10-28T06:00:00+00:00,metal,85.01,Maule Circular,validado
+RET-0647,PL-017,2026-10-28T07:00:00+00:00,plastico,169.98,Maule Circular,observado
+RET-0648,PL-018,2026-10-28T08:00:00+00:00,plastico,64.89,EcoTrans,observado
+RET-0649,PL-019,2026-10-28T09:00:00+00:00,vidrio,51.51,EcoTrans,validado
+RET-0650,PL-020,2026-10-28T10:00:00+00:00,papel,40.86,EcoTrans,observado
+RET-0651,PL-021,2026-10-28T11:00:00+00:00,carton,130.23,EcoTrans,observado
+RET-0652,PL-022,2026-10-28T12:00:00+00:00,metal,133.72,EcoTrans,recibido
+RET-0653,PL-023,2026-10-28T13:00:00+00:00,carton,161.43,Maule Circular,recibido
+RET-0654,PL-024,2026-10-28T14:00:00+00:00,plastico,103.2,Ruta Verde,recibido
+RET-0655,PL-025,2026-10-28T15:00:00+00:00,carton,89.52,EcoTrans,validado
+RET-0656,PL-026,2026-10-28T16:00:00+00:00,metal,63.42,EcoTrans,validado
+RET-0657,PL-027,2026-10-28T17:00:00+00:00,papel,177.09,EcoTrans,recibido
+RET-0658,PL-028,2026-10-28T18:00:00+00:00,metal,14.48,EcoTrans,recibido
+RET-0659,PL-029,2026-10-28T19:00:00+00:00,carton,57.11,Maule Circular,validado
+RET-0660,PL-030,2026-10-28T20:00:00+00:00,vidrio,62.56,EcoTrans,validado
+RET-0661,PL-001,2026-10-28T21:00:00+00:00,plastico,52.31,Ruta Verde,observado
+RET-0662,PL-002,2026-10-28T22:00:00+00:00,carton,33.66,Ruta Verde,recibido
+RET-0663,PL-003,2026-10-28T23:00:00+00:00,vidrio,75.28,Ruta Verde,observado
+RET-0664,PL-004,2026-10-29T00:00:00+00:00,plastico,158.2,Ruta Verde,validado
+RET-0665,PL-005,2026-10-29T01:00:00+00:00,plastico,87.79,Ruta Verde,recibido
+RET-0666,PL-006,2026-10-29T02:00:00+00:00,carton,63.58,Maule Circular,validado
+RET-0667,PL-007,2026-10-29T03:00:00+00:00,metal,125.4,Maule Circular,validado
+RET-0668,PL-008,2026-10-29T04:00:00+00:00,plastico,62.14,Ruta Verde,recibido
+RET-0669,PL-009,2026-10-29T05:00:00+00:00,metal,68.62,Maule Circular,recibido
+RET-0670,PL-010,2026-10-29T06:00:00+00:00,plastico,119.38,Ruta Verde,recibido
+RET-0671,PL-011,2026-10-29T07:00:00+00:00,metal,91.08,Maule Circular,validado
+RET-0672,PL-012,2026-10-29T08:00:00+00:00,metal,46.69,Maule Circular,validado
+RET-0673,PL-013,2026-10-29T09:00:00+00:00,vidrio,152.35,Ruta Verde,observado
+RET-0674,PL-014,2026-10-29T10:00:00+00:00,plastico,180.01,EcoTrans,observado
+RET-0675,PL-015,2026-10-29T11:00:00+00:00,metal,48.61,Ruta Verde,validado
+RET-0676,PL-016,2026-10-29T12:00:00+00:00,papel,94.33,Maule Circular,observado
+RET-0677,PL-017,2026-10-29T13:00:00+00:00,plastico,30.66,Ruta Verde,recibido
+RET-0678,PL-018,2026-10-29T14:00:00+00:00,vidrio,166.7,EcoTrans,validado
+RET-0679,PL-019,2026-10-29T15:00:00+00:00,papel,124.02,Maule Circular,observado
+RET-0680,PL-020,2026-10-29T16:00:00+00:00,metal,189.01,Maule Circular,observado
+RET-0681,PL-021,2026-10-29T17:00:00+00:00,metal,104.74,Maule Circular,recibido
+RET-0682,PL-022,2026-10-29T18:00:00+00:00,metal,113.01,Maule Circular,recibido
+RET-0683,PL-023,2026-10-29T19:00:00+00:00,metal,93.36,Maule Circular,observado
+RET-0684,PL-024,2026-10-29T20:00:00+00:00,carton,169.44,EcoTrans,validado
+RET-0685,PL-025,2026-10-29T21:00:00+00:00,vidrio,154.92,Ruta Verde,validado
+RET-0686,PL-026,2026-10-29T22:00:00+00:00,carton,139.95,EcoTrans,observado
+RET-0687,PL-027,2026-10-29T23:00:00+00:00,metal,167.55,Maule Circular,recibido
+RET-0688,PL-028,2026-10-30T00:00:00+00:00,carton,191.73,Ruta Verde,observado
+RET-0689,PL-029,2026-10-30T01:00:00+00:00,vidrio,8.79,Ruta Verde,recibido
+RET-0690,PL-030,2026-10-30T02:00:00+00:00,vidrio,49.72,Ruta Verde,observado
+RET-0691,PL-001,2026-10-30T03:00:00+00:00,metal,180.05,Maule Circular,observado
+RET-0692,PL-002,2026-10-30T04:00:00+00:00,plastico,22.42,EcoTrans,recibido
+RET-0693,PL-003,2026-10-30T05:00:00+00:00,vidrio,166.8,Ruta Verde,observado
+RET-0694,PL-004,2026-10-30T06:00:00+00:00,metal,131.34,Ruta Verde,recibido
+RET-0695,PL-005,2026-10-30T07:00:00+00:00,carton,155.13,Maule Circular,validado
+RET-0696,PL-006,2026-10-30T08:00:00+00:00,vidrio,28.3,Maule Circular,observado
+RET-0697,PL-007,2026-10-30T09:00:00+00:00,papel,83.72,EcoTrans,validado
+RET-0698,PL-008,2026-10-30T10:00:00+00:00,carton,90.0,EcoTrans,observado
+RET-0699,PL-009,2026-10-30T11:00:00+00:00,metal,13.69,Ruta Verde,validado
+RET-0700,PL-010,2026-10-30T12:00:00+00:00,metal,94.41,Maule Circular,observado
+RET-0701,PL-011,2026-10-30T13:00:00+00:00,vidrio,22.83,Ruta Verde,validado
+RET-0702,PL-012,2026-10-30T14:00:00+00:00,metal,41.34,Maule Circular,observado
+RET-0703,PL-013,2026-10-30T15:00:00+00:00,vidrio,99.51,Ruta Verde,recibido
+RET-0704,PL-014,2026-10-30T16:00:00+00:00,carton,166.31,Ruta Verde,validado
+RET-0705,PL-015,2026-10-30T17:00:00+00:00,vidrio,111.47,Maule Circular,recibido
+RET-0706,PL-016,2026-10-30T18:00:00+00:00,carton,54.57,EcoTrans,recibido
+RET-0707,PL-017,2026-10-30T19:00:00+00:00,carton,7.97,EcoTrans,recibido
+RET-0708,PL-018,2026-10-30T20:00:00+00:00,metal,92.64,EcoTrans,validado
+RET-0709,PL-019,2026-10-30T21:00:00+00:00,vidrio,14.48,EcoTrans,observado
+RET-0710,PL-020,2026-10-30T22:00:00+00:00,papel,94.48,Maule Circular,observado
+RET-0711,PL-021,2026-10-30T23:00:00+00:00,carton,189.1,Maule Circular,validado
+RET-0712,PL-022,2026-10-31T00:00:00+00:00,metal,61.3,Maule Circular,recibido
+RET-0713,PL-023,2026-10-31T01:00:00+00:00,papel,33.5,EcoTrans,recibido
+RET-0714,PL-024,2026-10-31T02:00:00+00:00,carton,167.75,Ruta Verde,validado
+RET-0715,PL-025,2026-10-31T03:00:00+00:00,metal,170.69,Maule Circular,validado
+RET-0716,PL-026,2026-10-31T04:00:00+00:00,metal,20.52,Maule Circular,observado
+RET-0717,PL-027,2026-10-31T05:00:00+00:00,papel,60.13,EcoTrans,observado
+RET-0718,PL-028,2026-10-31T06:00:00+00:00,metal,160.48,Maule Circular,validado
+RET-0719,PL-029,2026-10-31T07:00:00+00:00,metal,65.28,EcoTrans,recibido
+RET-0720,PL-030,2026-10-31T08:00:00+00:00,carton,186.03,EcoTrans,recibido
+RET-0721,PL-001,2026-10-31T09:00:00+00:00,vidrio,164.19,Maule Circular,observado
+RET-0722,PL-002,2026-10-31T10:00:00+00:00,plastico,127.87,Maule Circular,recibido
+RET-0723,PL-003,2026-10-31T11:00:00+00:00,papel,196.64,Ruta Verde,observado
+RET-0724,PL-004,2026-10-31T12:00:00+00:00,plastico,17.73,EcoTrans,validado
+RET-0725,PL-005,2026-10-31T13:00:00+00:00,plastico,170.68,Maule Circular,validado
+RET-0726,PL-006,2026-10-31T14:00:00+00:00,vidrio,161.02,EcoTrans,validado
+RET-0727,PL-007,2026-10-31T15:00:00+00:00,metal,154.18,Ruta Verde,validado
+RET-0728,PL-008,2026-10-31T16:00:00+00:00,carton,73.3,Ruta Verde,observado
+RET-0729,PL-009,2026-10-31T17:00:00+00:00,carton,184.02,Maule Circular,recibido
+RET-0730,PL-010,2026-10-31T18:00:00+00:00,papel,132.47,EcoTrans,observado
+RET-0731,PL-011,2026-10-31T19:00:00+00:00,papel,24.56,EcoTrans,validado
+RET-0732,PL-012,2026-10-31T20:00:00+00:00,carton,124.49,EcoTrans,validado
+RET-0733,PL-013,2026-10-31T21:00:00+00:00,vidrio,108.52,EcoTrans,recibido
+RET-0734,PL-014,2026-10-31T22:00:00+00:00,papel,157.58,EcoTrans,validado
+RET-0735,PL-015,2026-10-31T23:00:00+00:00,metal,158.77,Ruta Verde,recibido
+RET-0736,PL-016,2026-11-01T00:00:00+00:00,papel,63.46,EcoTrans,observado
+RET-0737,PL-017,2026-11-01T01:00:00+00:00,carton,137.45,Ruta Verde,validado
+RET-0738,PL-018,2026-11-01T02:00:00+00:00,plastico,102.11,Ruta Verde,validado
+RET-0739,PL-019,2026-11-01T03:00:00+00:00,papel,6.25,Maule Circular,recibido
+RET-0740,PL-020,2026-11-01T04:00:00+00:00,vidrio,31.4,EcoTrans,recibido
+RET-0741,PL-021,2026-11-01T05:00:00+00:00,carton,140.35,Ruta Verde,recibido
+RET-0742,PL-022,2026-11-01T06:00:00+00:00,plastico,173.2,Maule Circular,recibido
+RET-0743,PL-023,2026-11-01T07:00:00+00:00,carton,166.02,EcoTrans,observado
+RET-0744,PL-024,2026-11-01T08:00:00+00:00,carton,62.55,EcoTrans,validado
+RET-0745,PL-025,2026-11-01T09:00:00+00:00,metal,88.76,Maule Circular,validado
+RET-0746,PL-026,2026-11-01T10:00:00+00:00,metal,6.15,Maule Circular,validado
+RET-0747,PL-027,2026-11-01T11:00:00+00:00,metal,17.31,Ruta Verde,validado
+RET-0748,PL-028,2026-11-01T12:00:00+00:00,carton,56.16,Ruta Verde,observado
+RET-0749,PL-029,2026-11-01T13:00:00+00:00,carton,155.42,Maule Circular,recibido
+RET-0750,PL-030,2026-11-01T14:00:00+00:00,plastico,162.67,Maule Circular,observado
+RET-0751,PL-001,2026-11-01T15:00:00+00:00,metal,38.89,Maule Circular,recibido
+RET-0752,PL-002,2026-11-01T16:00:00+00:00,papel,60.61,Ruta Verde,validado
+RET-0753,PL-003,2026-11-01T17:00:00+00:00,papel,130.38,Maule Circular,validado
+RET-0754,PL-004,2026-11-01T18:00:00+00:00,papel,89.66,EcoTrans,observado
+RET-0755,PL-005,2026-11-01T19:00:00+00:00,plastico,37.29,EcoTrans,recibido
+RET-0756,PL-006,2026-11-01T20:00:00+00:00,plastico,188.24,Maule Circular,validado
+RET-0757,PL-007,2026-11-01T21:00:00+00:00,metal,143.13,EcoTrans,observado
+RET-0758,PL-008,2026-11-01T22:00:00+00:00,metal,184.0,Maule Circular,validado
+RET-0759,PL-009,2026-11-01T23:00:00+00:00,carton,198.21,EcoTrans,recibido
+RET-0760,PL-010,2026-11-02T00:00:00+00:00,papel,37.22,Maule Circular,recibido
+RET-0761,PL-011,2026-11-02T01:00:00+00:00,vidrio,48.62,Ruta Verde,validado
+RET-0762,PL-012,2026-11-02T02:00:00+00:00,plastico,18.79,EcoTrans,observado
+RET-0763,PL-013,2026-11-02T03:00:00+00:00,metal,43.45,Ruta Verde,recibido
+RET-0764,PL-014,2026-11-02T04:00:00+00:00,carton,154.12,Maule Circular,validado
+RET-0765,PL-015,2026-11-02T05:00:00+00:00,metal,24.83,EcoTrans,validado
+RET-0766,PL-016,2026-11-02T06:00:00+00:00,papel,83.74,Ruta Verde,recibido
+RET-0767,PL-017,2026-11-02T07:00:00+00:00,papel,85.48,Maule Circular,observado
+RET-0768,PL-018,2026-11-02T08:00:00+00:00,vidrio,175.2,Ruta Verde,observado
+RET-0769,PL-019,2026-11-02T09:00:00+00:00,metal,63.09,Ruta Verde,recibido
+RET-0770,PL-020,2026-11-02T10:00:00+00:00,papel,32.04,Ruta Verde,recibido
+RET-0771,PL-021,2026-11-02T11:00:00+00:00,papel,141.8,Maule Circular,validado
+RET-0772,PL-022,2026-11-02T12:00:00+00:00,metal,68.61,Maule Circular,validado
+RET-0773,PL-023,2026-11-02T13:00:00+00:00,carton,154.82,EcoTrans,validado
+RET-0774,PL-024,2026-11-02T14:00:00+00:00,plastico,19.16,EcoTrans,recibido
+RET-0775,PL-025,2026-11-02T15:00:00+00:00,carton,6.98,Ruta Verde,observado
+RET-0776,PL-026,2026-11-02T16:00:00+00:00,carton,137.47,Ruta Verde,recibido
+RET-0777,PL-027,2026-11-02T17:00:00+00:00,plastico,45.02,Ruta Verde,observado
+RET-0778,PL-028,2026-11-02T18:00:00+00:00,carton,138.85,EcoTrans,observado
+RET-0779,PL-029,2026-11-02T19:00:00+00:00,vidrio,65.88,EcoTrans,observado
+RET-0780,PL-030,2026-11-02T20:00:00+00:00,vidrio,155.9,Ruta Verde,observado
+RET-0781,PL-001,2026-11-02T21:00:00+00:00,vidrio,68.6,Maule Circular,validado
+RET-0782,PL-002,2026-11-02T22:00:00+00:00,papel,50.96,Maule Circular,observado
+RET-0783,PL-003,2026-11-02T23:00:00+00:00,plastico,10.54,Ruta Verde,validado
+RET-0784,PL-004,2026-11-03T00:00:00+00:00,plastico,22.53,Ruta Verde,observado
+RET-0785,PL-005,2026-11-03T01:00:00+00:00,carton,67.84,Maule Circular,observado
+RET-0786,PL-006,2026-11-03T02:00:00+00:00,carton,68.51,Maule Circular,observado
+RET-0787,PL-007,2026-11-03T03:00:00+00:00,papel,175.37,Ruta Verde,validado
+RET-0788,PL-008,2026-11-03T04:00:00+00:00,plastico,194.58,Maule Circular,observado
+RET-0789,PL-009,2026-11-03T05:00:00+00:00,plastico,34.05,Maule Circular,validado
+RET-0790,PL-010,2026-11-03T06:00:00+00:00,metal,59.77,Maule Circular,validado
+RET-0791,PL-011,2026-11-03T07:00:00+00:00,metal,165.02,Maule Circular,recibido
+RET-0792,PL-012,2026-11-03T08:00:00+00:00,metal,45.35,EcoTrans,recibido
+RET-0793,PL-013,2026-11-03T09:00:00+00:00,papel,193.64,EcoTrans,observado
+RET-0794,PL-014,2026-11-03T10:00:00+00:00,plastico,123.4,EcoTrans,recibido
+RET-0795,PL-015,2026-11-03T11:00:00+00:00,vidrio,20.32,EcoTrans,observado
+RET-0796,PL-016,2026-11-03T12:00:00+00:00,metal,117.45,Ruta Verde,validado
+RET-0797,PL-017,2026-11-03T13:00:00+00:00,plastico,86.47,Maule Circular,recibido
+RET-0798,PL-018,2026-11-03T14:00:00+00:00,plastico,60.16,EcoTrans,observado
+RET-0799,PL-019,2026-11-03T15:00:00+00:00,papel,9.23,Ruta Verde,recibido
+RET-0800,PL-020,2026-11-03T16:00:00+00:00,metal,51.65,Ruta Verde,recibido
+RET-0801,PL-021,2026-11-03T17:00:00+00:00,carton,69.8,Ruta Verde,validado
+RET-0802,PL-022,2026-11-03T18:00:00+00:00,vidrio,86.86,Maule Circular,validado
+RET-0803,PL-023,2026-11-03T19:00:00+00:00,papel,85.6,Maule Circular,observado
+RET-0804,PL-024,2026-11-03T20:00:00+00:00,plastico,102.4,EcoTrans,recibido
+RET-0805,PL-025,2026-11-03T21:00:00+00:00,vidrio,93.32,Maule Circular,observado
+RET-0806,PL-026,2026-11-03T22:00:00+00:00,carton,23.04,EcoTrans,observado
+RET-0807,PL-027,2026-11-03T23:00:00+00:00,papel,129.72,Maule Circular,observado
+RET-0808,PL-028,2026-11-04T00:00:00+00:00,carton,37.79,Maule Circular,observado
+RET-0809,PL-029,2026-11-04T01:00:00+00:00,metal,56.65,Ruta Verde,validado
+RET-0810,PL-030,2026-11-04T02:00:00+00:00,vidrio,12.49,Ruta Verde,observado
+RET-0811,PL-001,2026-11-04T03:00:00+00:00,vidrio,136.5,Maule Circular,validado
+RET-0812,PL-002,2026-11-04T04:00:00+00:00,plastico,104.85,Maule Circular,recibido
+RET-0813,PL-003,2026-11-04T05:00:00+00:00,vidrio,25.39,Maule Circular,validado
+RET-0814,PL-004,2026-11-04T06:00:00+00:00,plastico,117.55,EcoTrans,validado
+RET-0815,PL-005,2026-11-04T07:00:00+00:00,plastico,45.77,Ruta Verde,validado
+RET-0816,PL-006,2026-11-04T08:00:00+00:00,plastico,137.39,Maule Circular,validado
+RET-0817,PL-007,2026-11-04T09:00:00+00:00,carton,37.94,Ruta Verde,validado
+RET-0818,PL-008,2026-11-04T10:00:00+00:00,metal,187.35,Maule Circular,validado
+RET-0819,PL-009,2026-11-04T11:00:00+00:00,plastico,171.67,Ruta Verde,recibido
+RET-0820,PL-010,2026-11-04T12:00:00+00:00,plastico,169.87,Ruta Verde,observado
+RET-0821,PL-011,2026-11-04T13:00:00+00:00,papel,177.71,EcoTrans,observado
+RET-0822,PL-012,2026-11-04T14:00:00+00:00,carton,191.86,Ruta Verde,validado
+RET-0823,PL-013,2026-11-04T15:00:00+00:00,papel,160.39,Ruta Verde,recibido
+RET-0824,PL-014,2026-11-04T16:00:00+00:00,carton,173.83,Ruta Verde,observado
+RET-0825,PL-015,2026-11-04T17:00:00+00:00,vidrio,31.32,Maule Circular,observado
+RET-0826,PL-016,2026-11-04T18:00:00+00:00,metal,9.52,Maule Circular,validado
+RET-0827,PL-017,2026-11-04T19:00:00+00:00,carton,80.63,EcoTrans,observado
+RET-0828,PL-018,2026-11-04T20:00:00+00:00,vidrio,62.27,EcoTrans,observado
+RET-0829,PL-019,2026-11-04T21:00:00+00:00,papel,94.99,Maule Circular,validado
+RET-0830,PL-020,2026-11-04T22:00:00+00:00,vidrio,11.44,Ruta Verde,observado
+RET-0831,PL-021,2026-11-04T23:00:00+00:00,carton,125.68,EcoTrans,validado
+RET-0832,PL-022,2026-11-05T00:00:00+00:00,metal,106.58,Maule Circular,recibido
+RET-0833,PL-023,2026-11-05T01:00:00+00:00,carton,193.31,Maule Circular,recibido
+RET-0834,PL-024,2026-11-05T02:00:00+00:00,plastico,140.58,Maule Circular,recibido
+RET-0835,PL-025,2026-11-05T03:00:00+00:00,metal,163.25,Maule Circular,observado
+RET-0836,PL-026,2026-11-05T04:00:00+00:00,metal,39.63,Maule Circular,recibido
+RET-0837,PL-027,2026-11-05T05:00:00+00:00,metal,110.54,Ruta Verde,validado
+RET-0838,PL-028,2026-11-05T06:00:00+00:00,vidrio,83.6,Maule Circular,recibido
+RET-0839,PL-029,2026-11-05T07:00:00+00:00,metal,143.0,Maule Circular,validado
+RET-0840,PL-030,2026-11-05T08:00:00+00:00,plastico,78.22,Ruta Verde,recibido
+RET-0841,PL-001,2026-11-05T09:00:00+00:00,vidrio,6.14,EcoTrans,recibido
+RET-0842,PL-002,2026-11-05T10:00:00+00:00,carton,115.07,Ruta Verde,recibido
+RET-0843,PL-003,2026-11-05T11:00:00+00:00,papel,5.72,Maule Circular,validado
+RET-0844,PL-004,2026-11-05T12:00:00+00:00,plastico,64.04,Ruta Verde,recibido
+RET-0845,PL-005,2026-11-05T13:00:00+00:00,carton,141.87,Maule Circular,recibido
+RET-0846,PL-006,2026-11-05T14:00:00+00:00,carton,116.98,Ruta Verde,observado
+RET-0847,PL-007,2026-11-05T15:00:00+00:00,papel,65.73,Ruta Verde,recibido
+RET-0848,PL-008,2026-11-05T16:00:00+00:00,plastico,124.06,EcoTrans,observado
+RET-0849,PL-009,2026-11-05T17:00:00+00:00,metal,183.72,Ruta Verde,validado
+RET-0850,PL-010,2026-11-05T18:00:00+00:00,metal,140.18,Maule Circular,recibido
+RET-0851,PL-011,2026-11-05T19:00:00+00:00,metal,37.35,Ruta Verde,observado
+RET-0852,PL-012,2026-11-05T20:00:00+00:00,carton,48.4,Maule Circular,observado
+RET-0853,PL-013,2026-11-05T21:00:00+00:00,metal,188.5,EcoTrans,validado
+RET-0854,PL-014,2026-11-05T22:00:00+00:00,plastico,59.91,Ruta Verde,observado
+RET-0855,PL-015,2026-11-05T23:00:00+00:00,vidrio,84.66,Ruta Verde,validado
+RET-0856,PL-016,2026-11-06T00:00:00+00:00,metal,22.0,Maule Circular,observado
+RET-0857,PL-017,2026-11-06T01:00:00+00:00,plastico,60.96,Ruta Verde,validado
+RET-0858,PL-018,2026-11-06T02:00:00+00:00,vidrio,199.04,Maule Circular,recibido
+RET-0859,PL-019,2026-11-06T03:00:00+00:00,vidrio,186.72,EcoTrans,recibido
+RET-0860,PL-020,2026-11-06T04:00:00+00:00,vidrio,141.51,Ruta Verde,recibido
+RET-0861,PL-021,2026-11-06T05:00:00+00:00,papel,195.63,Maule Circular,observado
+RET-0862,PL-022,2026-11-06T06:00:00+00:00,vidrio,141.99,Ruta Verde,observado
+RET-0863,PL-023,2026-11-06T07:00:00+00:00,metal,131.98,Maule Circular,validado
+RET-0864,PL-024,2026-11-06T08:00:00+00:00,plastico,180.55,EcoTrans,recibido
+RET-0865,PL-025,2026-11-06T09:00:00+00:00,carton,29.63,Maule Circular,recibido
+RET-0866,PL-026,2026-11-06T10:00:00+00:00,carton,92.73,EcoTrans,recibido
+RET-0867,PL-027,2026-11-06T11:00:00+00:00,plastico,165.64,Ruta Verde,recibido
+RET-0868,PL-028,2026-11-06T12:00:00+00:00,carton,174.09,EcoTrans,observado
+RET-0869,PL-029,2026-11-06T13:00:00+00:00,vidrio,122.7,EcoTrans,validado
+RET-0870,PL-030,2026-11-06T14:00:00+00:00,plastico,150.18,Maule Circular,validado
+RET-0871,PL-001,2026-11-06T15:00:00+00:00,plastico,182.63,Ruta Verde,observado
+RET-0872,PL-002,2026-11-06T16:00:00+00:00,plastico,100.19,EcoTrans,observado
+RET-0873,PL-003,2026-11-06T17:00:00+00:00,plastico,188.45,EcoTrans,validado
+RET-0874,PL-004,2026-11-06T18:00:00+00:00,metal,176.56,EcoTrans,validado
+RET-0875,PL-005,2026-11-06T19:00:00+00:00,carton,23.86,Ruta Verde,recibido
+RET-0876,PL-006,2026-11-06T20:00:00+00:00,vidrio,158.77,Maule Circular,observado
+RET-0877,PL-007,2026-11-06T21:00:00+00:00,metal,84.79,Maule Circular,validado
+RET-0878,PL-008,2026-11-06T22:00:00+00:00,carton,196.7,Ruta Verde,validado
+RET-0879,PL-009,2026-11-06T23:00:00+00:00,plastico,143.87,EcoTrans,recibido
+RET-0880,PL-010,2026-11-07T00:00:00+00:00,plastico,71.47,Ruta Verde,recibido
+RET-0881,PL-011,2026-11-07T01:00:00+00:00,papel,29.04,Maule Circular,validado
+RET-0882,PL-012,2026-11-07T02:00:00+00:00,carton,160.3,Maule Circular,validado
+RET-0883,PL-013,2026-11-07T03:00:00+00:00,vidrio,138.07,Ruta Verde,validado
+RET-0884,PL-014,2026-11-07T04:00:00+00:00,papel,191.91,Maule Circular,recibido
+RET-0885,PL-015,2026-11-07T05:00:00+00:00,metal,141.42,EcoTrans,recibido
+RET-0886,PL-016,2026-11-07T06:00:00+00:00,papel,140.26,Maule Circular,observado
+RET-0887,PL-017,2026-11-07T07:00:00+00:00,carton,79.37,Ruta Verde,observado
+RET-0888,PL-018,2026-11-07T08:00:00+00:00,metal,153.54,Ruta Verde,observado
+RET-0889,PL-019,2026-11-07T09:00:00+00:00,vidrio,48.13,EcoTrans,recibido
+RET-0890,PL-020,2026-11-07T10:00:00+00:00,vidrio,50.11,Ruta Verde,recibido
+RET-0891,PL-021,2026-11-07T11:00:00+00:00,papel,96.5,Ruta Verde,observado
+RET-0892,PL-022,2026-11-07T12:00:00+00:00,vidrio,106.01,EcoTrans,observado
+RET-0893,PL-023,2026-11-07T13:00:00+00:00,metal,45.02,Maule Circular,recibido
+RET-0894,PL-024,2026-11-07T14:00:00+00:00,vidrio,59.99,Ruta Verde,validado
+RET-0895,PL-025,2026-11-07T15:00:00+00:00,carton,22.57,Maule Circular,recibido
+RET-0896,PL-026,2026-11-07T16:00:00+00:00,metal,171.14,Maule Circular,observado
+RET-0897,PL-027,2026-11-07T17:00:00+00:00,metal,197.89,Ruta Verde,observado
+RET-0898,PL-028,2026-11-07T18:00:00+00:00,vidrio,110.82,EcoTrans,validado
+RET-0899,PL-029,2026-11-07T19:00:00+00:00,vidrio,112.23,Ruta Verde,validado
+RET-0900,PL-030,2026-11-07T20:00:00+00:00,carton,19.41,Maule Circular,observado
+RET-0901,PL-001,2026-11-07T21:00:00+00:00,metal,15.05,Ruta Verde,observado
+RET-0902,PL-002,2026-11-07T22:00:00+00:00,papel,170.68,Maule Circular,validado
+RET-0903,PL-003,2026-11-07T23:00:00+00:00,vidrio,115.27,Ruta Verde,validado
+RET-0904,PL-004,2026-11-08T00:00:00+00:00,papel,108.23,Ruta Verde,recibido
+RET-0905,PL-005,2026-11-08T01:00:00+00:00,plastico,123.77,Ruta Verde,observado
+RET-0906,PL-006,2026-11-08T02:00:00+00:00,plastico,107.19,Ruta Verde,recibido
+RET-0907,PL-007,2026-11-08T03:00:00+00:00,papel,189.24,Ruta Verde,validado
+RET-0908,PL-008,2026-11-08T04:00:00+00:00,plastico,57.82,Maule Circular,validado
+RET-0909,PL-009,2026-11-08T05:00:00+00:00,carton,65.65,Maule Circular,observado
+RET-0910,PL-010,2026-11-08T06:00:00+00:00,metal,190.85,Ruta Verde,observado
+RET-0911,PL-011,2026-11-08T07:00:00+00:00,metal,184.42,Maule Circular,validado
+RET-0912,PL-012,2026-11-08T08:00:00+00:00,carton,157.86,Ruta Verde,validado
+RET-0913,PL-013,2026-11-08T09:00:00+00:00,metal,99.58,Maule Circular,observado
+RET-0914,PL-014,2026-11-08T10:00:00+00:00,carton,56.04,Ruta Verde,recibido
+RET-0915,PL-015,2026-11-08T11:00:00+00:00,vidrio,130.0,EcoTrans,recibido
+RET-0916,PL-016,2026-11-08T12:00:00+00:00,metal,81.7,Ruta Verde,observado
+RET-0917,PL-017,2026-11-08T13:00:00+00:00,papel,149.45,Ruta Verde,observado
+RET-0918,PL-018,2026-11-08T14:00:00+00:00,metal,60.0,Maule Circular,observado
+RET-0919,PL-019,2026-11-08T15:00:00+00:00,papel,9.74,EcoTrans,observado
+RET-0920,PL-020,2026-11-08T16:00:00+00:00,metal,130.2,Maule Circular,validado
+RET-0921,PL-021,2026-11-08T17:00:00+00:00,carton,42.15,EcoTrans,recibido
+RET-0922,PL-022,2026-11-08T18:00:00+00:00,vidrio,7.23,Ruta Verde,recibido
+RET-0923,PL-023,2026-11-08T19:00:00+00:00,metal,32.59,Maule Circular,validado
+RET-0924,PL-024,2026-11-08T20:00:00+00:00,plastico,66.43,Ruta Verde,validado
+RET-0925,PL-025,2026-11-08T21:00:00+00:00,metal,43.08,Maule Circular,observado
+RET-0926,PL-026,2026-11-08T22:00:00+00:00,carton,175.16,EcoTrans,validado
+RET-0927,PL-027,2026-11-08T23:00:00+00:00,papel,107.91,EcoTrans,recibido
+RET-0928,PL-028,2026-11-09T00:00:00+00:00,carton,32.26,EcoTrans,observado
+RET-0929,PL-029,2026-11-09T01:00:00+00:00,carton,86.41,Ruta Verde,recibido
+RET-0930,PL-030,2026-11-09T02:00:00+00:00,vidrio,163.54,EcoTrans,observado
+RET-0931,PL-001,2026-11-09T03:00:00+00:00,vidrio,81.55,Ruta Verde,observado
+RET-0932,PL-002,2026-11-09T04:00:00+00:00,papel,190.75,EcoTrans,recibido
+RET-0933,PL-003,2026-11-09T05:00:00+00:00,plastico,43.89,Ruta Verde,recibido
+RET-0934,PL-004,2026-11-09T06:00:00+00:00,metal,168.3,Ruta Verde,recibido
+RET-0935,PL-005,2026-11-09T07:00:00+00:00,plastico,112.04,EcoTrans,recibido
+RET-0936,PL-006,2026-11-09T08:00:00+00:00,vidrio,162.57,Ruta Verde,recibido
+RET-0937,PL-007,2026-11-09T09:00:00+00:00,carton,147.1,EcoTrans,recibido
+RET-0938,PL-008,2026-11-09T10:00:00+00:00,plastico,80.77,Ruta Verde,recibido
+RET-0939,PL-009,2026-11-09T11:00:00+00:00,carton,192.83,Ruta Verde,observado
+RET-0940,PL-010,2026-11-09T12:00:00+00:00,metal,114.2,Maule Circular,recibido
+RET-0941,PL-011,2026-11-09T13:00:00+00:00,vidrio,24.07,EcoTrans,recibido
+RET-0942,PL-012,2026-11-09T14:00:00+00:00,carton,153.56,EcoTrans,recibido
+RET-0943,PL-013,2026-11-09T15:00:00+00:00,vidrio,48.98,Ruta Verde,validado
+RET-0944,PL-014,2026-11-09T16:00:00+00:00,plastico,43.09,Ruta Verde,validado
+RET-0945,PL-015,2026-11-09T17:00:00+00:00,vidrio,171.84,EcoTrans,observado
+RET-0946,PL-016,2026-11-09T18:00:00+00:00,metal,48.74,Maule Circular,recibido
+RET-0947,PL-017,2026-11-09T19:00:00+00:00,carton,30.21,Maule Circular,recibido
+RET-0948,PL-018,2026-11-09T20:00:00+00:00,vidrio,183.05,Maule Circular,recibido
+RET-0949,PL-019,2026-11-09T21:00:00+00:00,vidrio,15.87,EcoTrans,observado
+RET-0950,PL-020,2026-11-09T22:00:00+00:00,vidrio,40.29,Maule Circular,observado
+RET-0951,PL-021,2026-11-09T23:00:00+00:00,carton,76.87,Maule Circular,validado
+RET-0952,PL-022,2026-11-10T00:00:00+00:00,metal,97.82,Ruta Verde,observado
+RET-0953,PL-023,2026-11-10T01:00:00+00:00,carton,130.87,EcoTrans,observado
+RET-0954,PL-024,2026-11-10T02:00:00+00:00,vidrio,174.9,Maule Circular,validado
+RET-0955,PL-025,2026-11-10T03:00:00+00:00,vidrio,43.13,Maule Circular,validado
+RET-0956,PL-026,2026-11-10T04:00:00+00:00,plastico,13.13,Ruta Verde,observado
+RET-0957,PL-027,2026-11-10T05:00:00+00:00,metal,150.4,EcoTrans,recibido
+RET-0958,PL-028,2026-11-10T06:00:00+00:00,metal,40.36,Maule Circular,recibido
+RET-0959,PL-029,2026-11-10T07:00:00+00:00,carton,20.04,Maule Circular,validado
+RET-0960,PL-030,2026-11-10T08:00:00+00:00,carton,195.19,Ruta Verde,validado
+RET-0961,PL-001,2026-11-10T09:00:00+00:00,vidrio,31.42,Maule Circular,observado
+RET-0962,PL-002,2026-11-10T10:00:00+00:00,plastico,9.05,Ruta Verde,validado
+RET-0963,PL-003,2026-11-10T11:00:00+00:00,vidrio,23.71,EcoTrans,observado
+RET-0964,PL-004,2026-11-10T12:00:00+00:00,papel,139.08,Ruta Verde,observado
+RET-0965,PL-005,2026-11-10T13:00:00+00:00,papel,57.2,Maule Circular,observado
+RET-0966,PL-006,2026-11-10T14:00:00+00:00,carton,41.91,EcoTrans,validado
+RET-0967,PL-007,2026-11-10T15:00:00+00:00,carton,137.98,EcoTrans,observado
+RET-0968,PL-008,2026-11-10T16:00:00+00:00,plastico,155.08,Ruta Verde,recibido
+RET-0969,PL-009,2026-11-10T17:00:00+00:00,carton,151.8,Ruta Verde,validado
+RET-0970,PL-010,2026-11-10T18:00:00+00:00,plastico,86.18,EcoTrans,validado
+RET-0971,PL-011,2026-11-10T19:00:00+00:00,papel,51.54,Maule Circular,validado
+RET-0972,PL-012,2026-11-10T20:00:00+00:00,metal,46.7,Maule Circular,recibido
+RET-0973,PL-013,2026-11-10T21:00:00+00:00,metal,92.2,EcoTrans,observado
+RET-0974,PL-014,2026-11-10T22:00:00+00:00,carton,164.64,Maule Circular,observado
+RET-0975,PL-015,2026-11-10T23:00:00+00:00,metal,27.58,Maule Circular,observado
+RET-0976,PL-016,2026-11-11T00:00:00+00:00,papel,155.87,EcoTrans,validado
+RET-0977,PL-017,2026-11-11T01:00:00+00:00,papel,30.0,EcoTrans,observado
+RET-0978,PL-018,2026-11-11T02:00:00+00:00,vidrio,199.32,Maule Circular,recibido
+RET-0979,PL-019,2026-11-11T03:00:00+00:00,papel,160.23,Ruta Verde,observado
+RET-0980,PL-020,2026-11-11T04:00:00+00:00,vidrio,165.45,Ruta Verde,recibido
+RET-0981,PL-021,2026-11-11T05:00:00+00:00,metal,85.18,Ruta Verde,validado
+RET-0982,PL-022,2026-11-11T06:00:00+00:00,vidrio,93.29,Ruta Verde,validado
+RET-0983,PL-023,2026-11-11T07:00:00+00:00,papel,49.65,Ruta Verde,observado
+RET-0984,PL-024,2026-11-11T08:00:00+00:00,vidrio,122.77,Maule Circular,observado
+RET-0985,PL-025,2026-11-11T09:00:00+00:00,carton,184.52,EcoTrans,validado
+RET-0986,PL-026,2026-11-11T10:00:00+00:00,metal,65.08,Maule Circular,recibido
+RET-0987,PL-027,2026-11-11T11:00:00+00:00,papel,153.93,Maule Circular,validado
+RET-0988,PL-028,2026-11-11T12:00:00+00:00,vidrio,179.77,Maule Circular,observado
+RET-0989,PL-029,2026-11-11T13:00:00+00:00,vidrio,8.09,Ruta Verde,validado
+RET-0990,PL-030,2026-11-11T14:00:00+00:00,plastico,152.4,EcoTrans,validado
+RET-0991,PL-001,2026-11-11T15:00:00+00:00,metal,41.74,Maule Circular,recibido
+RET-0992,PL-002,2026-11-11T16:00:00+00:00,plastico,71.11,Maule Circular,observado
+RET-0993,PL-003,2026-11-11T17:00:00+00:00,papel,24.2,Maule Circular,validado
+RET-0994,PL-004,2026-11-11T18:00:00+00:00,plastico,197.61,Maule Circular,observado
+RET-0995,PL-005,2026-11-11T19:00:00+00:00,papel,103.58,Ruta Verde,observado
+RET-0996,PL-006,2026-11-11T20:00:00+00:00,vidrio,72.91,Maule Circular,observado
+RET-0997,PL-007,2026-11-11T21:00:00+00:00,metal,13.55,Ruta Verde,recibido
+RET-0998,PL-008,2026-11-11T22:00:00+00:00,carton,52.01,Maule Circular,observado
+RET-0999,PL-009,2026-11-11T23:00:00+00:00,carton,35.67,Ruta Verde,validado
+RET-1000,PL-010,2026-11-12T00:00:00+00:00,metal,83.81,Maule Circular,observado

@@ -1,0 +1,31 @@
+punto_id,nombre,comuna,region,capacidad_kg,estado,materiales
+PL-001,Punto Limpio Talca 1,Talca,Maule,2298,mantencion,metal|vidrio|plastico
+PL-002,Punto Limpio Curicó 2,Curicó,Maule,1139,mantencion,carton|papel|plastico
+PL-003,Punto Limpio Linares 3,Linares,Maule,839,activo,vidrio|plastico|papel
+PL-004,Punto Limpio San Clemente 4,San Clemente,Maule,2406,activo,plastico|metal|papel
+PL-005,Punto Limpio Molina 5,Molina,Maule,1517,activo,papel|carton|plastico
+PL-006,Punto Limpio Parral 6,Parral,Maule,2378,mantencion,vidrio|carton|plastico
+PL-007,Punto Limpio San Javier 7,San Javier,Maule,2429,activo,carton|papel|metal
+PL-008,Punto Limpio Constitución 8,Constitución,Maule,2409,mantencion,metal|plastico|carton
+PL-009,Punto Limpio Cauquenes 9,Cauquenes,Maule,1555,mantencion,metal|carton|plastico
+PL-010,Punto Limpio Maule 10,Maule,Maule,1931,activo,metal|plastico|papel
+PL-011,Punto Limpio Talca 11,Talca,Maule,1095,mantencion,metal|papel|vidrio
+PL-012,Punto Limpio Curicó 12,Curicó,Maule,1630,mantencion,plastico|carton|metal
+PL-013,Punto Limpio Linares 13,Linares,Maule,2070,activo,metal|papel|vidrio
+PL-014,Punto Limpio San Clemente 14,San Clemente,Maule,617,activo,carton|plastico|papel
+PL-015,Punto Limpio Molina 15,Molina,Maule,2094,activo,vidrio|metal|carton
+PL-016,Punto Limpio Parral 16,Parral,Maule,1800,activo,carton|metal|papel
+PL-017,Punto Limpio San Javier 17,San Javier,Maule,1844,activo,carton|plastico|papel
+PL-018,Punto Limpio Constitución 18,Constitución,Maule,669,activo,vidrio|plastico|metal
+PL-019,Punto Limpio Cauquenes 19,Cauquenes,Maule,1393,mantencion,vidrio|papel|metal
+PL-020,Punto Limpio Maule 20,Maule,Maule,1086,activo,papel|vidrio|metal
+PL-021,Punto Limpio Talca 21,Talca,Maule,881,activo,metal|carton|papel
+PL-022,Punto Limpio Curicó 22,Curicó,Maule,2265,activo,plastico|metal|vidrio
+PL-023,Punto Limpio Linares 23,Linares,Maule,1730,activo,papel|metal|carton
+PL-024,Punto Limpio San Clemente 24,San Clemente,Maule,1917,activo,plastico|carton|vidrio
+PL-025,Punto Limpio Molina 25,Molina,Maule,1857,mantencion,carton|metal|vidrio
+PL-026,Punto Limpio Parral 26,Parral,Maule,889,mantencion,plastico|carton|metal
+PL-027,Punto Limpio San Javier 27,San Javier,Maule,2157,activo,papel|metal|plastico
+PL-028,Punto Limpio Constitución 28,Constitución,Maule,2369,activo,carton|vidrio|metal
+PL-029,Punto Limpio Cauquenes 29,Cauquenes,Maule,2189,activo,vidrio|metal|carton
+PL-030,Punto Limpio Maule 30,Maule,Maule,680,mantencion,vidrio|carton|plastico

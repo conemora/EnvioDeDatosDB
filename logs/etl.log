@@ -76,3 +76,101 @@
 2026-11-24 22:06:41,104 | INFO | ETL finalizado correctamente
 2026-11-24 22:06:41,104 | INFO | Tiempo de ejecucion: 5.28 segundos
 2026-11-24 22:06:41,105 | INFO | ========== FIN DEL ETL ==========
+2026-11-25 22:54:40,828 | INFO | ========== INICIO DEL ETL ==========
+2026-11-25 22:54:40,902 | INFO | Conexion exitosa con PostgreSQL
+2026-11-25 22:54:40,938 | INFO | --- EXTRACCION ---
+2026-11-25 22:54:40,938 | INFO | Puntos extraidos: 30
+2026-11-25 22:54:40,939 | INFO | Retiros extraidos: 1000
+2026-11-25 22:54:40,948 | INFO | --- TRANSFORMACION ---
+2026-11-25 22:54:40,949 | INFO | Puntos validos: 30
+2026-11-25 22:54:40,949 | INFO | Puntos rechazados: 0
+2026-11-25 22:54:40,949 | INFO | Retiros validos: 1000
+2026-11-25 22:54:40,950 | INFO | Retiros rechazados: 0
+2026-11-25 22:54:42,627 | INFO | Conexion exitosa con MongoDB Atlas
+2026-11-25 22:54:42,628 | INFO | --- CREACION DE INDICES ---
+2026-11-25 22:54:42,771 | INFO | --- CARGA EN MONGODB ---
+2026-11-25 22:54:42,843 | INFO | Coleccion: puntos_limpios
+2026-11-25 22:54:42,844 | INFO | Documentos procesados: 30
+2026-11-25 22:54:42,844 | INFO | Documentos insertados: 0
+2026-11-25 22:54:42,844 | INFO | Documentos encontrados: 30
+2026-11-25 22:54:42,845 | INFO | Documentos modificados: 0
+2026-11-25 22:54:46,321 | INFO | Coleccion: retiros
+2026-11-25 22:54:46,323 | INFO | Documentos procesados: 1000
+2026-11-25 22:54:46,324 | INFO | Documentos insertados: 0
+2026-11-25 22:54:46,325 | INFO | Documentos encontrados: 1000
+2026-11-25 22:54:46,325 | INFO | Documentos modificados: 1
+2026-11-25 22:54:46,327 | INFO | --- CONTEO FINAL ---
+2026-11-25 22:54:46,393 | INFO | Total puntos limpios: 30
+2026-11-25 22:54:46,459 | INFO | Total retiros: 1000
+2026-11-25 22:54:46,460 | INFO | --- CONCILIACION DE DATOS ---
+2026-11-25 22:54:46,592 | INFO | PostgreSQL - Puntos: 30
+2026-11-25 22:54:46,592 | INFO | MongoDB - Puntos: 30
+2026-11-25 22:54:46,593 | INFO | Diferencia puntos: 0
+2026-11-25 22:54:46,593 | INFO | PostgreSQL - Retiros: 1000
+2026-11-25 22:54:46,594 | INFO | MongoDB - Retiros: 1000
+2026-11-25 22:54:46,594 | INFO | Diferencia retiros: 0
+2026-11-25 22:54:46,594 | INFO | Conciliacion de conteos exitosa
+2026-11-25 22:54:46,856 | INFO | --- VERIFICACION DE IDENTIFICADORES ---
+2026-11-25 22:54:46,856 | INFO | Puntos faltantes: 0
+2026-11-25 22:54:46,857 | INFO | Retiros faltantes: 0
+2026-11-25 22:54:46,857 | INFO | Puntos sobrantes: 0
+2026-11-25 22:54:46,857 | INFO | Retiros sobrantes: 0
+2026-11-25 22:54:46,987 | INFO | --- INTEGRIDAD REFERENCIAL ---
+2026-11-25 22:54:46,988 | INFO | Retiros huerfanos: 0
+2026-11-25 22:54:47,053 | INFO | --- CONCILIACION DE KILOGRAMOS ---
+2026-11-25 22:54:47,054 | INFO | Total kg PostgreSQL: 99651.92
+2026-11-25 22:54:47,054 | INFO | Total kg MongoDB: 99651.92
+2026-11-25 22:54:47,054 | INFO | Diferencia kg: 0.00
+2026-11-25 22:54:47,054 | INFO | Todas las verificaciones fueron exitosas
+2026-11-25 22:54:47,120 | INFO | ETL finalizado correctamente
+2026-11-25 22:54:47,121 | INFO | Tiempo de ejecucion: 6.29 segundos
+2026-11-25 22:54:47,121 | INFO | ========== FIN DEL ETL ==========
+2026-11-25 22:58:29,069 | INFO | ========== INICIO DEL ETL ==========
+2026-11-25 22:58:29,118 | INFO | Conexion exitosa con PostgreSQL
+2026-11-25 22:58:29,139 | INFO | --- EXTRACCION ---
+2026-11-25 22:58:29,140 | INFO | Puntos extraidos: 30
+2026-11-25 22:58:29,140 | INFO | Retiros extraidos: 1001
+2026-11-25 22:58:29,149 | INFO | --- TRANSFORMACION ---
+2026-11-25 22:58:29,149 | INFO | Puntos validos: 30
+2026-11-25 22:58:29,149 | INFO | Puntos rechazados: 0
+2026-11-25 22:58:29,150 | INFO | Retiros validos: 1001
+2026-11-25 22:58:29,150 | INFO | Retiros rechazados: 0
+2026-11-25 22:58:30,184 | INFO | Conexion exitosa con MongoDB Atlas
+2026-11-25 22:58:30,184 | INFO | --- CREACION DE INDICES ---
+2026-11-25 22:58:30,358 | INFO | --- CARGA EN MONGODB ---
+2026-11-25 22:58:30,436 | INFO | Coleccion: puntos_limpios
+2026-11-25 22:58:30,436 | INFO | Documentos procesados: 30
+2026-11-25 22:58:30,436 | INFO | Documentos insertados: 0
+2026-11-25 22:58:30,437 | INFO | Documentos encontrados: 30
+2026-11-25 22:58:30,437 | INFO | Documentos modificados: 0
+2026-11-25 22:58:33,952 | INFO | Coleccion: retiros
+2026-11-25 22:58:33,953 | INFO | Documentos procesados: 1001
+2026-11-25 22:58:33,953 | INFO | Documentos insertados: 1
+2026-11-25 22:58:33,953 | INFO | Documentos encontrados: 1000
+2026-11-25 22:58:33,953 | INFO | Documentos modificados: 0
+2026-11-25 22:58:33,954 | INFO | --- CONTEO FINAL ---
+2026-11-25 22:58:34,025 | INFO | Total puntos limpios: 30
+2026-11-25 22:58:34,095 | INFO | Total retiros: 1001
+2026-11-25 22:58:34,095 | INFO | --- CONCILIACION DE DATOS ---
+2026-11-25 22:58:34,236 | INFO | PostgreSQL - Puntos: 30
+2026-11-25 22:58:34,236 | INFO | MongoDB - Puntos: 30
+2026-11-25 22:58:34,237 | INFO | Diferencia puntos: 0
+2026-11-25 22:58:34,238 | INFO | PostgreSQL - Retiros: 1001
+2026-11-25 22:58:34,238 | INFO | MongoDB - Retiros: 1001
+2026-11-25 22:58:34,238 | INFO | Diferencia retiros: 0
+2026-11-25 22:58:34,239 | INFO | Conciliacion de conteos exitosa
+2026-11-25 22:58:34,522 | INFO | --- VERIFICACION DE IDENTIFICADORES ---
+2026-11-25 22:58:34,523 | INFO | Puntos faltantes: 0
+2026-11-25 22:58:34,523 | INFO | Retiros faltantes: 0
+2026-11-25 22:58:34,524 | INFO | Puntos sobrantes: 0
+2026-11-25 22:58:34,524 | INFO | Retiros sobrantes: 0
+2026-11-25 22:58:34,665 | INFO | --- INTEGRIDAD REFERENCIAL ---
+2026-11-25 22:58:34,665 | INFO | Retiros huerfanos: 0
+2026-11-25 22:58:34,736 | INFO | --- CONCILIACION DE KILOGRAMOS ---
+2026-11-25 22:58:34,736 | INFO | Total kg PostgreSQL: 99700.42
+2026-11-25 22:58:34,737 | INFO | Total kg MongoDB: 99700.42
+2026-11-25 22:58:34,737 | INFO | Diferencia kg: 0.00
+2026-11-25 22:58:34,737 | INFO | Todas las verificaciones fueron exitosas
+2026-11-25 22:58:34,807 | INFO | ETL finalizado correctamente
+2026-11-25 22:58:34,807 | INFO | Tiempo de ejecucion: 5.74 segundos
+2026-11-25 22:58:34,808 | INFO | ========== FIN DEL ETL ==========
